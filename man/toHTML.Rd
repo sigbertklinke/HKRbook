@@ -31,6 +31,5 @@ If you decide to view the result in a browser then the HTML will be written to a
 library("tools")
 m    <- matrix(1:12, ncol=4)
 hm   <- html_matrix(m)
-html <- toHTML(hm, browser=TRUE)
-toHTML(hm)
+html <- toHTML(hm, browser=interactive())
 }

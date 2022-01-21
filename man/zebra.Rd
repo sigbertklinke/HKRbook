@@ -24,5 +24,5 @@ library("magrittr")
 library("tools")
 m    <- matrix(1:12, ncol=4)
 hm   <- html_matrix(m) \%>\% zebra()
-html <- toHTML(hm, browser=TRUE)
+html <- toHTML(hm, browser=interactive())
 }

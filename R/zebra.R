@@ -12,23 +12,23 @@
 #' library("tools")
 #' m    <- matrix(1:12, ncol=4)
 #' hm   <- html_matrix(m) %>% zebra()
-#' html <- toHTML(hm, browser=TRUE)
+#' html <- toHTML(hm, browser=interactive())
 zebra <- function(x, col=c("#FFFFFF", "#CCCCCC"), byrow=TRUE) {
   stopifnot("html_matrix" %in% class(x))
   if (byrow) {
-    col <- rep(col, length.out=nrow(x))    
+    col <- rep(col, length.out=nrow(x))
     for (i in 1:nrow(x)) {
       for (j in 1:ncol(x)) {
-        x[[i,j]]$background_color <- col[i] 
+        x[[i,j]]$background_color <- col[i]
       }
     }
   } else {
-    col <- rep(col, length.out=ncol(x))    
+    col <- rep(col, length.out=ncol(x))
     for (i in 1:nrow(x)) {
       for (j in 1:ncol(x)) {
-        x[[i, j]]$background_color <- col[j] 
+        x[[i, j]]$background_color <- col[j]
       }
-    }  
+    }
   }
   x
 }

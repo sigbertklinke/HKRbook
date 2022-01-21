@@ -29,7 +29,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup, include=FALSE}
-library(HKRbook)
+library("HKRbook")
 ```
 
 # Introduction to Statistics
@@ -62,7 +62,7 @@ or Mathematics and its Applications, School of Mathematical Sciences, The Austra
 ## Use of the examples
 
 The interactive examples in the book could be reached via web link of the form `https://u.hu-berlin.de/men_xxxx`. In the package
-`HRKBook` these links has been replaced by functions `men_xxxx()`.
+`HKRbook` these links has been replaced by functions `men_xxxx()`.
 
 ```{r, eval=FALSE}
 # install the package once from CRAN
@@ -108,46 +108,4 @@ men_tmu2()   | data set(s) | Test for mean difference                           
 men_tprop()  | data set(s) | Binomial test                                            | `men_tprop`
 men_vis()    | data set(s) | Visualizations of a numeric variable                     | `men_vis`
 
-# Package details
-
-## `htmlTable`
-
-`htmlTable` in connection with `toHTML` creates a HTML representation of a two-dimensional `table` object.
-
-```{r, echo=FALSE}
-par(mar=c(0,0,0,0))
-plot(0,0, xlim=c(0,1), ylim=c(0,1), type="n", axes=FALSE)
-#
-rect(0, 0.8, 1, 1, border="black")
-text(0.5, 0.9, "header line(s)")
-#
-rect(0, 0.7, 0.2, 0.8, border="black")
-text(0.1, 0.75, "title")
-#
-rect(0.2, 0.7, 0.8, 0.8, border="black")
-text(0.5, 0.75, "column names")
-#
-rect(0.8, 0.7, 1, 0.8, border="black")
-text(0.9, 0.75, "rowmargin\ntitle")
-#
-rect(0, 0.3, 0.2, 0.8, border="black")
-text(0.1, 0.5, "row names")
-#
-rect(0.8, 0.3, 1, 0.8, border="black")
-text(0.9, 0.5, "row margin")
-#
-text(0.5, 0.5, "table")
-#
-rect(0, 0.2, 0.2, 0.3, border="black")
-text(0.1, 0.25, "colmargin\ntitle")
-#
-rect(0.2, 0.2, 0.8, 0.3, border="black")
-text(0.5, 0.25, "col margin")
-#
-rect(0.8, 0.2, 1, 0.3, border="black")
-text(0.9, 0.25, "total")
-#
-rect(0, 0, 1, 0.2, border="black")
-text(0.5, 0.1, "footer line(s)")
-```
 

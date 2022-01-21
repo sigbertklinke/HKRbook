@@ -18,8 +18,7 @@
 #' library("tools")
 #' m    <- matrix(1:12, ncol=4)
 #' hm   <- html_matrix(m)
-#' html <- toHTML(hm, browser=TRUE)
-#' toHTML(hm)
+#' html <- toHTML(hm, browser=interactive())
 toHTML.html_matrix <- function(x, browser=FALSE, ...)  {
   style <- function(l) {
     use <- setdiff(names(l), c("tooltip", "value", "fmt", ""))
