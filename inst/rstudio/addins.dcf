@@ -1,0 +1,19 @@
+Name: Format R
+Description: Reformat selected R code using 'formatR::tidy_source()'.
+Binding: reformatAddin
+Interactive: false
+
+Name: One line
+Description: In the selected R code each top level expression will become a single line.
+Binding: onelineAddin
+Interactive: false
+
+Name: Parse
+Description: Parses the selected code.
+Binding: parseAddin
+Interactive: false
+
+Name: mmstat.ui.elem
+Description:  Adds an mmstat.ui.elem call if possible.
+Binding: elemAddin
+Interactive: false

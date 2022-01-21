@@ -1,0 +1,20 @@
+<table width="100%%" border="1" style="font-size:%s%%">
+<tr bgcolor="#AAAAAA"><th>Parameter</th><th colspan="2">Sample (n=%i)</th><th colspan="2">Population</th></tr>
+<tr><td>Mean</td>
+    <td><span style="text-decoration: overline;">x</span></td><td align="right">%.*f&nbsp;</td>
+    <td>&mu;</td><td align="right">%.*f&nbsp;</td></tr>
+<tr><td>Standard deviation</td>
+    <td>s</td><td align="right">%.*f&nbsp;</td>
+    <td>&sigma;</td><td align="right">%.*f&nbsp;</td></tr>
+<tr><td>Variance of <span style="text-decoration: overline;">X</span></td>
+    <td>&sigma; estimated</td><td align="right">%.*f&nbsp;</td>
+    <td>&sigma; known</td><td align="right">%.*f&nbsp;</td></tr>
+<tr bgcolor="#AAAAAA"><th>Test</th><th colspan="2">H<sub>0</sub></th><th colspan="2">H<sub>1</sub></th></tr>
+<tr><td>Hypotheses</td><td colspan="2" align="center">%s</td><td colspan="2" align="center">%s</td></tr>
+<tr><td>Decision</td>
+<td colspan="4" align="center">%s</td></tr>
+<tr><td>Type I error (&alpha; error)</td>
+<td colspan="2" align="center"></td><td colspan="2" align="center">P("H<sub>1</sub>"|H<sub>0</sub>)=%.1f%%</td></tr>
+<tr><td>Type II error (&beta; error)</td>
+<td colspan="2" align="center">P("H<sub>0</sub>"|H<sub>1</sub>)=%.1f%%</td><td colspan="2" align="center"></td></tr>
+</table>

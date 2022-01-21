@@ -1,0 +1,20 @@
+<table width="100%%" border="1" style="font-size:{{ sprintf("%.0f", 100*cex) }}%">
+<tr bgcolor="#AAAAAA"><th style="padding:5px;" >Parameter</th><th style="padding:5px;" colspan="2">Sample (n={{ sprintf("%.0f", n) }})</th><th style="padding:5px;" colspan="2">Population</th></tr>
+<tr><td style="padding:5px;" >Mean</td>
+    <td style="padding:5px;" ><span style="text-decoration: overline;">x</span></td><td style="padding:5px;" align="right">{{ sprintf("%.*f", dec, mean) }}</td>
+    <td style="padding:5px;" >&mu;</td><td style="padding:5px;" align="right">{{ sprintf("%.*f", dec, mu) }}</td></tr>
+<tr><td style="padding:5px;" >Standard deviation</td>
+    <td style="padding:5px;" >s</td><td style="padding:5px;" align="right">{{ sprintf("%.*f", dec, sds) }}</td>
+    <td style="padding:5px;" >&sigma;</td><td style="padding:5px;" align="right">{{ sprintf("%.*f", dec, sdp) }}</td></tr>
+<tr><td style="padding:5px;" >Variance of <span style="text-decoration: overline;">X</span></td>
+    <td style="padding:5px;" >&sigma; estimated</td><td style="padding:5px;" align="right">{{ sprintf("%.*f", dec, xbvs) }}</td>
+    <td style="padding:5px;" >&sigma; known</td><td style="padding:5px;" align="right">{{ sprintf("%.*f", dec, xbvp) }}</td></tr>
+<tr bgcolor="#AAAAAA"><th style="padding:5px;" >Test</th><th style="padding:5px;text-align:center;" colspan="2">H<sub>0</sub></th><th style="padding:5px;text-align:center;" colspan="2" align="center">H<sub>1</sub></th></tr>
+<tr><td style="padding:5px;" >Hypotheses</td><td style="padding:5px;" colspan="2" align="center">{{ HTML(h0) }}</td><td style="padding:5px;" colspan="2" align="center">{{ HTML(h1) }}</td></tr>
+<tr><td style="padding:5px;" >Decision</td>
+<td style="padding:5px;" colspan="4" align="center">{{ HTML(decision) }}</td></tr>
+<tr><td style="padding:5px;" >Type I error (&alpha; error)</td>
+<td style="padding:5px;" colspan="2" align="center"></td><td style="padding:5px;" colspan="2" align="center">P("H<sub>1</sub>"|H<sub>0</sub>)={{ sprintf("%.1f", alpha) }}%</td></tr>
+<tr><td style="padding:5px;" >Type II error (&beta; error)</td>
+<td style="padding:5px;" colspan="2" align="center">P("H<sub>0</sub>"|H<sub>1</sub>)={{ sprintf("%.1f", beta) }}%</td><td style="padding:5px;" colspan="2" align="center"></td></tr>
+</table>

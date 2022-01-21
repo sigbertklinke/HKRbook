@@ -1,0 +1,18 @@
+<table width="100%%" border="1" style="font-size:{{ sprintf("%.0f", 100*cex) }}%">
+<tr bgcolor="#AAAAAA"><th colspan="5" style="text-align:center;padding:5px;">Parameters for {{ xlab }} in {{ dataname }}</th></tr>
+<tr bgcolor="#AAAAAA"><th></th><th colspan="2"  style="padding:5px;">non-robust</th><th colspan="2" style="padding:5px;">robust</th></tr>
+<tr><td rowspan="3" bgcolor="#AAAAAA" style="padding:5px;"><b>Location</b></td>
+  <td style="padding:5px;">Mean</td><td align="right" style="padding:5px;"">{{ sprintf("%.*f", dec, mean) }}</td>
+  <td style="padding:5px;">Median</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, median) }}</td></tr>
+<tr><td style="padding:5px;">Minimum</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, min) }}</td>
+  <td style="padding:5px;">1. Quartile</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, q25) }}</td></tr>
+<tr><td style="padding:5px;">Maximum</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, max) }}</td>
+  <td style="padding:5px;">3. Quartile</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, q75) }}</td></tr>
+<tr><td rowspan="3" bgcolor="#AAAAAA" style="padding:5px;"><b>Dispersion</b></td>
+  <td style="padding:5px;">Standard deviation</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, sd) }}</td>
+  <td style="padding:5px;">Interquartile range</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, iqr) }}</td></tr>
+<tr><td style="padding:5px;">Variance</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, var) }}</td>
+  <td></td><td></td></tr>
+<tr><td style="padding:5px;">Range</td><td align="right" style="padding:5px;">{{ sprintf("%.*f", dec, range) }}</td>
+  <td></td><td></td></tr>
+</table>

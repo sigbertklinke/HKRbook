@@ -1,0 +1,21 @@
+<table width="100%%" border="1" style="font-size:{{ sprintf("%.0f", 100*cex) }}%">
+<tr bgcolor="#AAAAAA"><th style="padding:5px;" colspan="2">Test</th></tr>
+<tr><td style="padding:5px;">Alternative hypothesis (H<sub>1</sub>)</td><td style="padding:5px;" style="padding:5px;" align="right">{{ HTML(h1) }}</td></tr>
+<tr><td style="padding:5px;" style="padding:5px;">Null hypothesis (H<sub>0</sub>)</td><td style="padding:5px;" align="right">{{ HTML(h0) }}</td></tr>
+<tr><td style="padding:5px;">Test value (&pi;<sub>0</sub>)</td><td style="padding:5px;" align="right">{{ sprintf("%.3f", pi0) }}</td></tr>
+<tr><td style="padding:5px;">Approximate distribution of <span style="font-size:65%">&Pi;</span>&#770;</td><td style="padding:5px;" align="right">N({{ sprintf("%.3f", ex) }}; {{ sprintf("%.3f", varx) }})</td></tr>
+<tr><td style="padding:5px;">Approximation condition (<i>n*&pi;<sub>0</sub>*(1-&pi;<sub>0</sub>)&ge;9)</i></td><td style="padding:5px;" align="right">{{ sprintf("%.1f", cond) }}</td></tr>
+<tr><td style="padding:5px;">Significance level (&alpha;)</td><td style="padding:5px;" align="right">{{ sprintf("%.1f", alpha) }}%</td></tr>
+<tr><td style="padding:5px;">Lower critical value</td><td style="padding:5px;" align="right">{{ sprintf("%.3f", cu) }}</td></tr>
+<tr><td style="padding:5px;">Upper critical value</td><td style="padding:5px;" align="right">{{ sprintf("%.3f", co) }}</td></tr>
+<tr><td style="padding:5px;">Test statistic (<span style="font-size:90%%">&pi;</span>&#770;)</td><td style="padding:5px;" align="right">{{ sprintf("%.3f", statistic) }}</td></tr>
+<tr><td style="padding:5px;">Test decision</td><td style="padding:5px;" align="right">{{ HTML(decision) }}</td></tr>
+<tr bgcolor="#AAAAAA"><th style="padding:5px;" colspan="2">Sample</th></tr>
+<tr><td style="padding:5px;">Proportion (p)</td><td style="padding:5px;" align="right">{{ sprintf("%.3f", sprop) }}</td></tr>
+<tr><td style="padding:5px;">Size (n)</td><td style="padding:5px;" align="right">{{ sprintf("%.f", ssize) }}</td></tr>
+<tr bgcolor="#AAAAAA"><th style="padding:5px;" colspan="2">Population</th></tr>
+<tr><td style="padding:5px;">Dataset</td><td style="padding:5px;" align="right">{{ dataname }}</td></tr>
+<tr><td style="padding:5px;">Variable</td><td style="padding:5px;" align="right">{{ varname }}</td></tr>
+<tr><td style="padding:5px;">Proportion (&pi;)</td><td style="padding:5px;" align="right">{{ sprintf("%.3f", pprop) }}</td></tr>
+<tr><td style="padding:5px;">Size (N)</td><td style="padding:5px;" align="right">{{ sprintf("%.0f", psize) }}</td></tr>
+</table>

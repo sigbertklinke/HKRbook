@@ -1,0 +1,153 @@
+---
+title: "HKRbook"
+author: 
+- name: "Sigbert Klinke" 
+  email: sigbert@hu-berlin.de
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+vignette: > 
+  %\VignetteIndexEntry{HKRbook} 
+  %\VignetteEngine{knitr::rmarkdown} 
+  \usepackage[utf8]{inputenc} 
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, include=FALSE}
+library(HKRbook)
+```
+
+# Introduction to Statistics
+
+## Contents
+
+The book **[Introduction to Statistics](https://link.springer.com/book/10.1007/978-3-319-17704-5)** by W. Härdle, S.Klinke and B. Rönz has been published in 2015 by Springer Verlag (paper/pdf/epub).
+
+It covers all the topics found in introductory descriptive statistics courses, including simple linear regression and time series analysis, the fundamentals of inferential statistics (probability theory, random sampling and estimation theory), and inferential statistics itself (confidence intervals, testing).
+
+Each chapter starts with the necessary theoretical background, which is followed by a variety of examples. The core examples are based on the content of the respective chapter, while the advanced examples, designed to deepen students' knowledge, also draw on information and material from previous chapters.
+
+The enhanced online version helps students grasp the complexity and the practical relevance of statistical analysis through interactive examples (Shiny apps) and is suitable for undergraduate and graduate students taking their first statistics courses, as well as for undergraduate students in non-mathematical fields, e.g. economics, the social sciences etc. 
+
+This book covers all the topics found in introductory descriptive statistics courses, including simple linear regression and time series analysis, the fundamentals of inferential statistics (probability theory, random sampling and estimation theory), and inferential statistics itself (confidence intervals, testing).
+Each chapter starts with the necessary theoretical background, which is followed by a variety of examples. The core examples are based on the content of the respective chapter, while the advanced examples, designed to deepen students' knowledge, also draw on information and material from previous chapters.
+The enhanced online version helps students grasp the complexity and the practical relevance of statistical analysis through interactive examples and is suitable for undergraduate and graduate students taking their first statistics courses, as well as for undergraduate students in non-mathematical fields, e.g. economics, the social sciences etc. 
+
+## Portrait of the authors 
+
+**Wolfgang Karl Härdle** is the Ladislaus von Bortkiewicz Professor of Statistics at the Humboldt-Universität zu Berlin and director of C.A.S.E. (Center for Applied Statistics and Economics), director of the CRC-649 (Collaborative Research Center) "Economic Risk" and director of the IRTG 1792 "High Dimensional Non-stationary Time Series". He teaches quantitative finance and semi-parametric statistics.  His research focuses on dynamic factor models, multivariate statistics in finance and computational statistics. He is an elected member of the ISI (International Statistical Institute) and advisor to the Guanghua School of Management, Peking University and a senior fellow of Sim Kee Boon Institute of Financial Economics at the Singapore Management University.
+
+**Sigbert Klinke** is a postdoctoral research fellow at the Chair of Statistics at Humboldt-Universität zu Berlin. He received his PhD in computational statistics from the Catholique University in Louvain-la-Neuve, Belgium. He teaches introductory statistics courses and data analytical courses for bachelor and master students in Economics and Educational Science at Humboldt-Universität zu Berlin's School of Business and Economics. His research focuses on computational and multivariate statistics and the teaching of statistics. 
+
+**Bernd Rönz** was a Professor of Statistics at the Institute for Statistics and Econometrics, School of Business and Economics, Humboldt University, Berlin. He taught Statistics, Computational Statistics and Generalized Linear Models. His research focused on multivariate statistics, computational statistics and generalized linear models. He previously worked as Associate Professor of Quantitative Methods for Business Decisions at the University of Dar es Salaam, Tanzania for more than two years. Furthermore, he was a Visiting Lecturer at Hosei-University Tokyo and Ritsumeikan-University Kyoto and a Visiting Fellow at the Centre f
+or Mathematics and its Applications, School of Mathematical Sciences, The Australian National University, Canberra. He retired in 2006.
+
+# Interactive examples from the book
+
+## Use of the examples
+
+The interactive examples in the book could be reached via web link of the form `https://u.hu-berlin.de/men_xxxx`. In the package
+`HRKBook` these links has been replaced by functions `men_xxxx()`.
+
+```{r, eval=FALSE}
+# install the package once from CRAN
+# install.packages("HKRbook")
+library("HKRbook")
+men_asso()  # calls the Shiny app behind "https://u.hu-berlin.de/men_asso"
+# Additionally you may use your data sets, for details see ?men_asso
+men_asso(Titanic)
+```
+
+If you run the app then quit it by closing the app window.
+
+## Old and new apps 
+
+However, we streamlined some apps since they are more or less duplicates from each other.
+
+R function   | Parameters  | Content                               | Book link (`https://u.hu-berlin.de/`)
+-------------+-------------+---------------------------------------+--------------------------------------
+men_asso()   | data set(s) | Association of categorical data                          | `men_asso`, `men_tab2`
+men_bin()    | parameters  | Binomial distribution                                    | `men_bin` 
+men_ci1()    | data set(s) | Confidence interval for the mean                         | `men_ci1` 
+men_ci2()    | data set(s) | Confidence interval for the difference of two means      | `men_ci2` 
+men_cilen()  | --          | Necessary sample size for confidence interval            | `men_cilen` 
+men_cipi()   | data set(s) | Confidence interval for the proportion                   | `men_cipi` 
+men_cisig()  | data set(s) | Confidence interval for the variance                     | `men_cisig` 
+men_corr()   | data set(s) | Scatterplots and correlation                             | `men_corr`, `men_plot`
+men_die()    | --          | Die rolling sisters (Bayes theorem)                      | `men_die` 
+men_dot()    | data set(s) | Dot plot/strip chart                                     | `men_dot1`, `men_dot2`
+men_exp()    | parameters  | Exponential distribution                                 | `men_exp` 
+men_hall()   | --          | Monty Hall problem                                       | `men_hall` 
+men_hist()   | data set(s) | Histogram                                                | `men_hist` 
+men_hyp()    | parameters  | Hypergeometric distribution                              | `men_hyp` 
+men_norm()   | parameters  | Normal distribution                                      | `men_norm`
+men_parn()   | parameter   | Distribution of sample parameters of a numerical variable | 
+men_poi()    | parameter   | Poisson distribution                                     | `men_poi`
+men_rank()   | data set(s) | Rank correlation of ordered variables                    | `men_rank`
+men_regr()   | data set(s) | Simple linear regression                                 | `men_regr`
+men_tab()    | data set(s) | Frequencies table/Crosstable                             |
+men_terr()   | data set(s) | Test of mean with type I and II error                    | `men_terr`
+men_time()   | time series | Classical time series analysis                           | `men_time1`, `men_time2`, `men_time3`
+men_tmu1()   | data set(s) | Test for mean                                            | `men_tmu1`
+men_tmu2()   | data set(s) | Test for mean difference                                 | `men_tmu2`
+men_tprop()  | data set(s) | Binomial test                                            | `men_tprop`
+men_vis()    | data set(s) | Visualizations of a numeric variable                     | `men_vis`
+
+# Package details
+
+## `htmlTable`
+
+`htmlTable` in connection with `toHTML` creates a HTML representation of a two-dimensional `table` object.
+
+```{r, echo=FALSE}
+par(mar=c(0,0,0,0))
+plot(0,0, xlim=c(0,1), ylim=c(0,1), type="n", axes=FALSE)
+#
+rect(0, 0.8, 1, 1, border="black")
+text(0.5, 0.9, "header line(s)")
+#
+rect(0, 0.7, 0.2, 0.8, border="black")
+text(0.1, 0.75, "title")
+#
+rect(0.2, 0.7, 0.8, 0.8, border="black")
+text(0.5, 0.75, "column names")
+#
+rect(0.8, 0.7, 1, 0.8, border="black")
+text(0.9, 0.75, "rowmargin\ntitle")
+#
+rect(0, 0.3, 0.2, 0.8, border="black")
+text(0.1, 0.5, "row names")
+#
+rect(0.8, 0.3, 1, 0.8, border="black")
+text(0.9, 0.5, "row margin")
+#
+text(0.5, 0.5, "table")
+#
+rect(0, 0.2, 0.2, 0.3, border="black")
+text(0.1, 0.25, "colmargin\ntitle")
+#
+rect(0.2, 0.2, 0.8, 0.3, border="black")
+text(0.5, 0.25, "col margin")
+#
+rect(0.8, 0.2, 1, 0.3, border="black")
+text(0.9, 0.25, "total")
+#
+rect(0, 0, 1, 0.2, border="black")
+text(0.5, 0.1, "footer line(s)")
+```
+

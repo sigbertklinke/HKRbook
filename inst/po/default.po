@@ -1,0 +1,2720 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MM Stat 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-13 12:21+0100\n"
+"PO-Revision-Date: 2020-09-08 08:29+0200\n"
+"Last-Translator: Sigbert Klinke <sigbert@wiwi.hu-berlin.de>\n"
+"Language-Team: Sigbert Klinke <sigbert@wiwi.hu-berlin.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: confidence_mean/helper2.R:157 die_game/helper2.R:157
+#: confidence_pi/helper2.R:157 confidence_sigma/helper2.R:157 helper2.R:157
+#: confidence_two_means/helper2.R:157 distribution_poisson/helper2.R:71
+#: time_series3/helper2.R:157 time_series1/helper2.R:157
+#: dotplot_location/helper2.R:71 distribution_binom/helper2.R:71
+#: association/helper2.R:157 test_two_means/helper2.R:157
+#: test_mean/helper2.R:157 sample_param/helper2.R:157
+#: distribution_normal/helper2.R:71 distribution_exponential/helper2.R:71
+#: visualization_distribution/helper2.R:157 distribution_hyper/helper2.R:71
+#: test_mean_error/helper2.R:157 dotplot_parameter/helper2.R:71
+#: test_proportion/helper2.R:157 correlation/helper2.R:157
+#: time_series2/helper2.R:157 monty_hall/helper2.R:157
+#: confidence_mean_length/helper2.R:157 linreg/helper2.R:157
+#: rank_correlation/helper2.R:157 histogram_simple/helper2.R:157
+#: scatterplot/helper2.R:157
+#, c-format
+msgid "Data file '%s' is missing"
+msgstr "Data file '%s' is missing"
+
+#: confidence_mean/helper2.R:169 die_game/helper2.R:169
+#: confidence_pi/helper2.R:169 confidence_sigma/helper2.R:169 helper2.R:169
+#: confidence_two_means/helper2.R:169 distribution_poisson/helper2.R:83
+#: time_series3/helper2.R:169 time_series1/helper2.R:169
+#: dotplot_location/helper2.R:83 distribution_binom/helper2.R:83
+#: association/helper2.R:169 test_two_means/helper2.R:169 helper.R:27
+#: test_mean/helper2.R:169 sample_param/helper2.R:169
+#: distribution_normal/helper2.R:83 distribution_exponential/helper2.R:83
+#: visualization_distribution/helper2.R:169 distribution_hyper/helper2.R:83
+#: test_mean_error/helper2.R:169 dotplot_parameter/helper2.R:83
+#: test_proportion/helper2.R:169 correlation/helper2.R:169
+#: time_series2/helper2.R:169 monty_hall/helper2.R:169
+#: confidence_mean_length/helper2.R:169 linreg/helper2.R:169
+#: rank_correlation/helper2.R:169 histogram_simple/helper2.R:169
+#: scatterplot/helper2.R:169
+msgid "Dataset:"
+msgstr "Dataset:"
+
+#: confidence_mean/helper2.R:454 die_game/helper2.R:454
+#: confidence_pi/helper2.R:454 confidence_sigma/helper2.R:454 helper2.R:454
+#: confidence_two_means/helper2.R:454 time_series3/helper2.R:454
+#: time_series1/helper2.R:454 association/helper2.R:454
+#: test_two_means/helper2.R:454 test_mean/helper2.R:454
+#: sample_param/helper2.R:454 visualization_distribution/helper2.R:454
+#: test_mean_error/helper2.R:454 test_proportion/helper2.R:454
+#: correlation/helper2.R:454 time_series2/helper2.R:454
+#: monty_hall/helper2.R:454 confidence_mean_length/helper2.R:454
+#: linreg/helper2.R:454 rank_correlation/helper2.R:454
+#: histogram_simple/helper2.R:454 scatterplot/helper2.R:454
+msgid "Sample size (n)"
+msgstr "Sample size (n)"
+
+#: confidence_mean/helper2.R:464 die_game/helper2.R:464
+#: confidence_pi/helper2.R:464 confidence_sigma/helper2.R:464 helper2.R:464
+#: confidence_two_means/helper2.R:464 time_series3/helper2.R:464
+#: time_series1/helper2.R:464 association/helper2.R:464
+#: test_two_means/helper2.R:464 test_mean/helper2.R:464
+#: sample_param/helper2.R:464 visualization_distribution/helper2.R:464
+#: test_mean_error/helper2.R:464 test_proportion/helper2.R:464
+#: correlation/helper2.R:464 time_series2/helper2.R:464
+#: monty_hall/helper2.R:464 confidence_mean_length/helper2.R:464
+#: linreg/helper2.R:464 rank_correlation/helper2.R:464
+#: histogram_simple/helper2.R:464 scatterplot/helper2.R:464
+msgid "Draw sample"
+msgstr "Draw sample"
+
+#: confidence_mean/helper2.R:469 die_game/helper2.R:469
+#: confidence_pi/helper2.R:469 confidence_sigma/helper2.R:469 helper2.R:469
+#: confidence_two_means/helper2.R:469 time_series3/helper2.R:469
+#: time_series1/helper2.R:469 association/helper2.R:469
+#: test_two_means/helper2.R:469 test_mean/helper2.R:469
+#: sample_param/helper2.R:469 visualization_distribution/helper2.R:469
+#: test_mean_error/helper2.R:469 test_mean_error/server.R:4
+#: test_proportion/helper2.R:469 test_proportion/server.R:4
+#: correlation/helper2.R:469 time_series2/helper2.R:469
+#: monty_hall/helper2.R:469 confidence_mean_length/helper2.R:469
+#: linreg/helper2.R:469 rank_correlation/helper2.R:469
+#: histogram_simple/helper2.R:469 scatterplot/helper2.R:469
+msgid "Choose test type"
+msgstr "Choose test type"
+
+#: confidence_mean/helper2.R:477 die_game/helper2.R:477
+#: confidence_pi/helper2.R:477 confidence_sigma/helper2.R:477 helper2.R:477
+#: confidence_two_means/helper2.R:477 time_series3/helper2.R:477
+#: time_series1/helper2.R:477 association/helper2.R:477
+#: test_two_means/helper2.R:477 test_mean/helper2.R:477
+#: sample_param/helper2.R:477 visualization_distribution/helper2.R:477
+#: test_mean_error/helper2.R:477 test_proportion/helper2.R:477
+#: correlation/helper2.R:477 time_series2/helper2.R:477
+#: monty_hall/helper2.R:477 confidence_mean_length/helper2.R:477
+#: linreg/helper2.R:477 rank_correlation/helper2.R:477
+#: histogram_simple/helper2.R:477 scatterplot/helper2.R:477
+msgid "Select significance level (&alpha;)"
+msgstr "Select significance level (&alpha;)"
+
+#: confidence_mean/helper2.R:487 die_game/helper2.R:487
+#: confidence_pi/helper2.R:487 confidence_sigma/helper2.R:487 helper2.R:487
+#: confidence_two_means/helper2.R:487 time_series3/helper2.R:487
+#: time_series1/helper2.R:487 association/helper2.R:487
+#: test_two_means/helper2.R:487 test_mean/helper2.R:487
+#: sample_param/helper2.R:487 visualization_distribution/helper2.R:487
+#: test_mean_error/helper2.R:487 test_proportion/helper2.R:487
+#: correlation/helper2.R:487 time_series2/helper2.R:487
+#: monty_hall/helper2.R:487 confidence_mean_length/helper2.R:487
+#: linreg/helper2.R:487 rank_correlation/helper2.R:487
+#: histogram_simple/helper2.R:487 scatterplot/helper2.R:487
+msgid "Select confidence level (1-&alpha;)"
+msgstr "Select confidence level (1-&alpha;)"
+
+#: confidence_mean/helper2.R:495 die_game/helper2.R:495
+#: confidence_pi/helper2.R:495 confidence_sigma/helper2.R:495 helper2.R:495
+#: confidence_two_means/helper2.R:495 time_series3/helper2.R:495
+#: time_series1/helper2.R:495 dotplot_location/server.R:5
+#: association/helper2.R:495 test_two_means/helper2.R:495
+#: test_mean/helper2.R:495 sample_param/helper2.R:495
+#: visualization_distribution/helper2.R:495 test_mean_error/helper2.R:495
+#: dotplot_parameter/server.R:5 test_proportion/helper2.R:495
+#: correlation/helper2.R:495 time_series2/helper2.R:495
+#: monty_hall/helper2.R:495 confidence_mean_length/helper2.R:495
+#: linreg/helper2.R:495 rank_correlation/helper2.R:495
+#: histogram_simple/helper2.R:495 scatterplot/helper2.R:495
+msgid "Select a data set"
+msgstr "Select a data set"
+
+#: confidence_mean/helper2.R:501 die_game/helper2.R:501
+#: confidence_pi/helper2.R:501 confidence_sigma/helper2.R:501 helper2.R:501
+#: confidence_two_means/helper2.R:501 time_series3/helper2.R:501
+#: time_series1/helper2.R:501 dotplot_location/server.R:9
+#: association/helper2.R:501 test_two_means/helper2.R:501
+#: test_mean/helper2.R:501 sample_param/helper2.R:501
+#: visualization_distribution/helper2.R:501 test_mean_error/helper2.R:501
+#: dotplot_parameter/server.R:9 test_proportion/helper2.R:501
+#: correlation/helper2.R:501 time_series2/helper2.R:501
+#: monty_hall/helper2.R:501 confidence_mean_length/helper2.R:501
+#: linreg/helper2.R:501 rank_correlation/helper2.R:501
+#: histogram_simple/helper2.R:501 scatterplot/helper2.R:501
+msgid "Select a variable"
+msgstr "Select  a variable"
+
+#: confidence_mean/helper2.R:508 die_game/helper2.R:508
+#: confidence_pi/helper2.R:508 confidence_sigma/helper2.R:508 helper2.R:508
+#: confidence_two_means/helper2.R:508 time_series3/helper2.R:508
+#: time_series1/helper2.R:508 association/helper2.R:508
+#: test_two_means/helper2.R:508 test_mean/helper2.R:508
+#: sample_param/helper2.R:508 visualization_distribution/helper2.R:508
+#: test_mean_error/helper2.R:508 test_proportion/helper2.R:508
+#: correlation/helper2.R:508 time_series2/helper2.R:508
+#: monty_hall/helper2.R:508 confidence_mean_length/helper2.R:508
+#: linreg/helper2.R:508 rank_correlation/helper2.R:508
+#: histogram_simple/helper2.R:508 scatterplot/helper2.R:508
+msgid "Select variable(s)"
+msgstr "Select variable(s)"
+
+#: confidence_mean/helper2.R:514 die_game/helper2.R:514
+#: confidence_pi/helper2.R:514 confidence_sigma/helper2.R:514 helper2.R:514
+#: confidence_two_means/helper2.R:514 distribution_poisson/server.R:55
+#: time_series3/helper2.R:514 time_series1/helper2.R:514
+#: dotplot_location/server.R:23 distribution_binom/server.R:55
+#: association/helper2.R:514 test_two_means/helper2.R:514
+#: test_mean/helper2.R:514 sample_param/helper2.R:514
+#: distribution_normal/server.R:39 distribution_exponential/server.R:38
+#: visualization_distribution/helper2.R:514 distribution_hyper/server.R:55
+#: test_mean_error/helper2.R:514 dotplot_parameter/server.R:29
+#: test_proportion/helper2.R:514 correlation/helper2.R:514
+#: time_series2/helper2.R:514 monty_hall/helper2.R:514
+#: confidence_mean_length/helper2.R:514 linreg/helper2.R:514
+#: rank_correlation/helper2.R:514 histogram_simple/helper2.R:514
+#: scatterplot/helper2.R:514
+msgid "Font size"
+msgstr "Font size"
+
+#: confidence_mean/helper2.R:595 die_game/helper2.R:595
+#: confidence_pi/helper2.R:595 confidence_sigma/helper2.R:595 helper2.R:595
+#: confidence_two_means/helper2.R:595 time_series3/helper2.R:595
+#: time_series1/helper2.R:595 association/helper2.R:595
+#: test_two_means/helper2.R:595 test_mean/helper2.R:595
+#: sample_param/helper2.R:595 visualization_distribution/helper2.R:595
+#: test_mean_error/helper2.R:595 test_proportion/helper2.R:595
+#: correlation/helper2.R:595 time_series2/helper2.R:595
+#: monty_hall/helper2.R:595 confidence_mean_length/helper2.R:595
+#: linreg/helper2.R:595 rank_correlation/helper2.R:595
+#: histogram_simple/helper2.R:595 scatterplot/helper2.R:595
+#, c-format
+msgid "Columns: %s"
+msgstr "Columns: %s"
+
+#: confidence_mean/helper2.R:614 die_game/helper2.R:614
+#: confidence_pi/helper2.R:614 confidence_sigma/helper2.R:614 helper2.R:614
+#: confidence_two_means/helper2.R:614 time_series3/helper2.R:614
+#: time_series1/helper2.R:614 association/helper2.R:614
+#: test_two_means/helper2.R:614 test_mean/helper2.R:614
+#: sample_param/helper2.R:614 visualization_distribution/helper2.R:614
+#: test_mean_error/helper2.R:614 test_proportion/helper2.R:614
+#: correlation/helper2.R:614 time_series2/helper2.R:614
+#: monty_hall/helper2.R:614 confidence_mean_length/helper2.R:614
+#: linreg/helper2.R:614 rank_correlation/helper2.R:614
+#: histogram_simple/helper2.R:614 scatterplot/helper2.R:614
+#, c-format
+msgid "Rows: %s"
+msgstr "Rows: %s"
+
+#: confidence_mean/helper2.R:681 die_game/helper2.R:681
+#: confidence_pi/helper2.R:681 confidence_sigma/helper2.R:681 helper2.R:681
+#: confidence_two_means/helper2.R:681 distribution_poisson/helper2.R:403
+#: time_series3/helper2.R:681 time_series1/helper2.R:681
+#: dotplot_location/helper2.R:402 distribution_binom/helper2.R:403
+#: association/helper2.R:681 test_two_means/helper2.R:681 helper.R:324
+#: test_mean/helper2.R:681 sample_param/helper2.R:681
+#: distribution_normal/helper2.R:402 distribution_exponential/helper2.R:402
+#: visualization_distribution/helper2.R:681 distribution_hyper/helper2.R:403
+#: test_mean_error/helper2.R:681 dotplot_parameter/helper2.R:402
+#: test_proportion/helper2.R:681 correlation/helper2.R:681
+#: time_series2/helper2.R:681 monty_hall/helper2.R:681
+#: confidence_mean_length/helper2.R:681 linreg/helper2.R:681
+#: rank_correlation/helper2.R:681 histogram_simple/helper2.R:681
+#: scatterplot/helper2.R:681
+msgid "LC_ALL"
+msgstr "C"
+
+#: confidence_mean/ui.R:7
+msgid "Confidence intervals for the mean"
+msgstr "Confidence intervals for the mean"
+
+#: confidence_mean/ui.R:8 confidence_pi/ui.R:8 confidence_sigma/ui.R:8
+#: confidence_two_means/ui.R:8 confidence_mean_length/ui.R:8
+msgid "Confidence interval parameter"
+msgstr "Confidence interval parameter"
+
+#: confidence_mean/ui.R:9 confidence_pi/ui.R:9 confidence_sigma/ui.R:9
+#: confidence_two_means/ui.R:9
+msgid "Sample drawing"
+msgstr "Sample drawing"
+
+#: confidence_mean/ui.R:10 confidence_pi/ui.R:10 confidence_sigma/ui.R:10
+#: confidence_two_means/ui.R:10 time_series3/ui.R:10 time_series1/ui.R:10
+#: dotplot_location/ui.R:9 association/ui.R:8 test_two_means/ui.R:9
+#: test_mean/ui.R:9 sample_param/ui.R:10 visualization_distribution/ui.R:9
+#: test_mean_error/ui.R:10 dotplot_parameter/ui.R:9 test_proportion/ui.R:10
+#: correlation/ui.R:9 time_series2/ui.R:10 linreg/ui.R:8
+#: rank_correlation/ui.R:8 histogram_simple/ui.R:9 scatterplot/ui.R:9
+msgid "Data choice"
+msgstr "Data choice"
+
+#: confidence_mean/ui.R:11 die_game/ui.R:9 confidence_pi/ui.R:11
+#: confidence_sigma/ui.R:11 confidence_two_means/ui.R:11
+#: distribution_poisson/ui.R:11 time_series3/ui.R:11 time_series1/ui.R:11
+#: dotplot_location/ui.R:10 distribution_binom/ui.R:11 association/ui.R:9
+#: test_two_means/ui.R:10 test_mean/ui.R:10 sample_param/ui.R:11
+#: distribution_normal/ui.R:11 distribution_exponential/ui.R:11
+#: visualization_distribution/ui.R:10 distribution_hyper/ui.R:11
+#: test_mean_error/ui.R:11 dotplot_parameter/ui.R:10 test_proportion/ui.R:11
+#: correlation/ui.R:10 time_series2/ui.R:11 monty_hall/ui.R:9
+#: confidence_mean_length/ui.R:9 linreg/ui.R:9 rank_correlation/ui.R:9
+#: histogram_simple/ui.R:10 scatterplot/ui.R:10
+msgid "Options"
+msgstr "Options"
+
+#: confidence_mean/server.R:8
+msgid "Population variance known"
+msgstr "Population variance known"
+
+#: confidence_mean/server.R:11 confidence_pi/server.R:8
+#: confidence_sigma/server.R:6 confidence_two_means/server.R:9
+msgid "Reset"
+msgstr "Reset"
+
+#: confidence_mean/server.R:130 confidence_pi/server.R:144
+#: confidence_sigma/server.R:120 confidence_two_means/server.R:153
+#, c-format
+msgid "%i confidence interval(s)"
+msgstr "%i confidence interval(s)"
+
+#: confidence_mean/server.R:166 confidence_pi/server.R:182
+#: confidence_sigma/server.R:155 confidence_two_means/server.R:191
+#: test_two_means/server.R:157 test_mean/server.R:146
+#: sample_param/server.R:183
+msgid "Population and sample"
+msgstr "Population and sample"
+
+#: die_game/ui.R:6
+msgid "Die rolling sisters"
+msgstr "Die rolling sisters"
+
+#: die_game/ui.R:7
+msgid "Game parameter"
+msgstr "Game parameter"
+
+#: die_game/ui.R:8
+msgid "Probability"
+msgstr "Probability"
+
+#: die_game/server.R:4
+msgid "Number of rolls:"
+msgstr "Number of rolls:"
+
+#: die_game/server.R:6
+msgid "Probability for six with loaded die:"
+msgstr "Probability for six with loaded die:"
+
+#: die_game/server.R:9
+msgid "Number of sixes (X):"
+msgstr "Number of sixes (X):"
+
+#: die_game/server.R:37
+msgid "P(Number of sixes | ... die)"
+msgstr "P(Number of sixes | ... die)"
+
+#: confidence_pi/ui.R:7
+msgid "Confidence intervals for the proportion"
+msgstr "Confidence intervals for the proportion"
+
+#: confidence_sigma/ui.R:7
+msgid "Confidence intervals for the variance"
+msgstr "Confidence intervals for the variance"
+
+#: i18n.R:4
+msgid "overplot"
+msgstr "Overplot"
+
+#: i18n.R:5
+msgid "jitter"
+msgstr "Jitter"
+
+#: i18n.R:6
+msgid "stack"
+msgstr "Stack"
+
+#: i18n.R:9
+msgid "SHOW.CHISQUARE"
+msgstr "Chi-Square coefficient"
+
+#: i18n.R:10
+msgid "SHOW.CONTINGENCY"
+msgstr "Contingency coefficient"
+
+#: i18n.R:11
+msgid "SHOW.CORRECTED.CONTINGENCY"
+msgstr "Corr. contingency coefficient"
+
+#: i18n.R:12
+msgid "SHOW.CRAMERS.V"
+msgstr "Cramers V"
+
+#: i18n.R:14
+msgid "SHOW.BRAVAIS.PEARSON"
+msgstr "Bravais Pearson correlation"
+
+#: i18n.R:15
+msgid "SHOW.SPEARMAN"
+msgstr "Spearmans rank correlation"
+
+#: i18n.R:16
+msgid "SHOW.KENDALL"
+msgstr "Kendall's rank correlation"
+
+#: i18n.R:19
+msgid "2D.SCATTERPLOT"
+msgstr "2d scatterplot"
+
+#: i18n.R:20
+msgid "3D.SCATTERPLOT"
+msgstr "3d scatterplot"
+
+#: i18n.R:21
+msgid "SCATTERPLOTMATRIX"
+msgstr "Scatterplot matrix"
+
+#: i18n.R:24
+msgid "BINOM"
+msgstr "Binomial distribution"
+
+#: i18n.R:25
+msgid "HYPER"
+msgstr "Hypergeometric distribution"
+
+#: i18n.R:26
+msgid "POIS"
+msgstr "Poisson distribution"
+
+#: i18n.R:27
+msgid "EXPD"
+msgstr "Exponential distribution"
+
+#: i18n.R:28 rds.R:239
+msgid "NORM"
+msgstr "Normal distribution"
+
+#: i18n.R:31
+msgid "CPDF"
+msgstr "Density function"
+
+#: i18n.R:32
+msgid "CCDF"
+msgstr "Cumulative distribution function"
+
+#: i18n.R:33
+msgid "DPDF"
+msgstr "Probability mass function"
+
+#: i18n.R:34
+msgid "DCDF"
+msgstr "Cumulative distribution function"
+
+#: i18n.R:37
+msgid "SHOW.REGRESSION"
+msgstr "Regression line"
+
+#: i18n.R:38
+msgid "SHOW.VALUES"
+msgstr "Regression summary"
+
+#: i18n.R:39
+msgid "SHOW.CONFIDENCE"
+msgstr "Confidence bands"
+
+#: i18n.R:42
+msgid "MEAN"
+msgstr "Mean"
+
+#: i18n.R:43
+msgid "MEDIAN"
+msgstr "Median"
+
+#: i18n.R:44
+msgid "STDDEV"
+msgstr "Standard deviation"
+
+#: i18n.R:45
+msgid "IQR"
+msgstr "Interquartile range"
+
+#: i18n.R:48
+msgid "NO.TREND"
+msgstr "No trend"
+
+#: i18n.R:49
+msgid "LIN.TREND"
+msgstr "Linear trend"
+
+#: i18n.R:50
+msgid "EXP.TREND"
+msgstr "Exponential trend"
+
+#: i18n.R:51
+msgid "MOV.AVE.3"
+msgstr "Moving average (order=3)"
+
+#: i18n.R:52
+msgid "MOV.AVE.5"
+msgstr "Moving average (order=5)"
+
+#: i18n.R:53
+msgid "MOV.AVE.7"
+msgstr "Moving average (order=7)"
+
+#: i18n.R:54
+msgid "NO.SEASON"
+msgstr "No seasonality"
+
+#: i18n.R:55
+msgid "ADD.SEASON"
+msgstr "Additive seasonality"
+
+#: i18n.R:56
+msgid "MUL.SEASON"
+msgstr "Multiplicative seasonality"
+
+#: i18n.R:59
+msgid "two.sided"
+msgstr "two sided"
+
+#: i18n.R:60
+msgid "less"
+msgstr "less"
+
+#: i18n.R:61
+msgid "greater"
+msgstr "greater"
+
+#: confidence_two_means/ui.R:7
+msgid "Confidence intervals for the difference of two means"
+msgstr "Confidence intervals for the difference of two means"
+
+#: confidence_two_means/server.R:5
+msgid "Equal variances assumed"
+msgstr "Equal variances assumed"
+
+#: confidence_two_means/server.R:6 test_two_means/server.R:6
+msgid "Select sample size for group 1 (n<sub>1</sub>)"
+msgstr "Select sample size for group 1 (n<sub>1</sub>)"
+
+#: confidence_two_means/server.R:7 test_two_means/server.R:7
+msgid "Select sample size for group 2 (n<sub>2</sub>)"
+msgstr "Select sample size for group 2 (n<sub>2</sub>)"
+
+#: confidence_two_means/server.R:13 test_two_means/server.R:11
+msgid "Select a group variable"
+msgstr "Select a group variable"
+
+#: distribution_poisson/ui.R:7 distribution_binom/ui.R:7
+#: distribution_hyper/ui.R:7
+msgid "Discrete probability distributions"
+msgstr "Discrete probability distributions"
+
+#: distribution_poisson/ui.R:8 distribution_binom/ui.R:8
+#: distribution_normal/ui.R:8 distribution_exponential/ui.R:8
+#: distribution_hyper/ui.R:8
+msgid "Choose distribution"
+msgstr "Choose distribution"
+
+# dotplot_location/ui.R
+#: distribution_poisson/ui.R:9 distribution_binom/ui.R:9
+#: distribution_normal/ui.R:9 distribution_exponential/ui.R:9
+#: distribution_hyper/ui.R:9
+msgid "Distribution parameter"
+msgstr "Distribution parameter"
+
+#: distribution_poisson/ui.R:10 distribution_binom/ui.R:10
+#: distribution_normal/ui.R:10 distribution_exponential/ui.R:10
+#: distribution_hyper/ui.R:10
+msgid "Choose function"
+msgstr "Choose function"
+
+#: distribution_poisson/server.R:9 distribution_binom/server.R:9
+#: distribution_normal/server.R:10 distribution_exponential/server.R:10
+#: distribution_hyper/server.R:9
+msgid "Select a probability distribution"
+msgstr "Select a probability distribution"
+
+#: distribution_poisson/server.R:13 distribution_poisson/server.R:31
+#: distribution_binom/server.R:13 distribution_binom/server.R:31
+#: distribution_hyper/server.R:13 distribution_hyper/server.R:31
+msgid "Number of draws (n)"
+msgstr "Number of draws (n)"
+
+#: distribution_poisson/server.R:19 distribution_binom/server.R:19
+#: distribution_hyper/server.R:19
+msgid "Probability of success per draw (p)"
+msgstr "Probability of success per draw (p)"
+
+#: distribution_poisson/server.R:25 distribution_binom/server.R:25
+#: distribution_hyper/server.R:25
+msgid "Population size (N)"
+msgstr "Population size (N)"
+
+#: distribution_poisson/server.R:37 distribution_binom/server.R:37
+#: distribution_hyper/server.R:37
+msgid "Number of success states in the population (M)"
+msgstr "Number of success states in the population (M)"
+
+#: distribution_poisson/server.R:43 distribution_binom/server.R:43
+#: distribution_normal/server.R:15 distribution_exponential/server.R:14
+#: distribution_hyper/server.R:43
+msgid "Parameter (&lambda;)"
+msgstr "Parameter (&lambda;)"
+
+#: distribution_poisson/server.R:49 distribution_binom/server.R:49
+#: distribution_normal/server.R:33 distribution_exponential/server.R:32
+#: distribution_hyper/server.R:49 linreg/server.R:8
+msgid "Show"
+msgstr "Show"
+
+#: distribution_poisson/server.R:53 distribution_binom/server.R:53
+#: distribution_normal/server.R:37 distribution_exponential/server.R:36
+#: distribution_hyper/server.R:53
+msgid "Refit axes"
+msgstr "Refit axes"
+
+#: distribution_poisson/server.R:65 distribution_binom/server.R:65
+#: distribution_hyper/server.R:65
+msgid "INTRO_BINOM"
+msgstr "INTRO_BINOM"
+
+#: distribution_poisson/server.R:69 distribution_binom/server.R:69
+#: distribution_hyper/server.R:69
+msgid "INTRO_HYPER"
+msgstr "INTRO_HYPER"
+
+#: distribution_poisson/server.R:73 distribution_binom/server.R:73
+#: distribution_hyper/server.R:73
+msgid "INTRO_POIS"
+msgstr "INTRO_POIS"
+
+#: distribution_poisson/server.R:197 distribution_binom/server.R:197
+#: distribution_hyper/server.R:197
+#, c-format
+msgid "Probability mass function of B(n=%.0f, p=%.2f)"
+msgstr "Probability mass function of B(n=%.0f, p=%.2f)"
+
+#: distribution_poisson/server.R:206 distribution_binom/server.R:206
+#: distribution_hyper/server.R:206
+#, c-format
+msgid "Cumulative distribution function of B(n=%.0f, p=%.2f)"
+msgstr "Cumulative distribution function of B(n=%.0f, p=%.2f)"
+
+#: distribution_poisson/server.R:219 distribution_binom/server.R:219
+#: distribution_hyper/server.R:219
+#, c-format
+msgid "Probability mass function of H(N=%.0f, M=%.0f, n=%.0f)"
+msgstr "Probability mass function of H(N=%.0f, M=%.0f, n=%.0f)"
+
+#: distribution_poisson/server.R:229 distribution_binom/server.R:229
+#: distribution_hyper/server.R:229
+#, c-format
+msgid "Cumulative distribution function of H(N=%.0f, M=%.0f, n=%.0f)"
+msgstr "Cumulative distribution function of H(N=%.0f, M=%.0f, n=%.0f)"
+
+#: distribution_poisson/server.R:243 distribution_binom/server.R:243
+#: distribution_hyper/server.R:243
+#, c-format
+msgid "Probability mass function of PO(&lambda;=%0.1f)"
+msgstr "Probability mass function of PO(&lambda;=%0.1f)"
+
+#: distribution_poisson/server.R:253 distribution_binom/server.R:253
+#: distribution_hyper/server.R:253
+#, c-format
+msgid "Cumulative distribution function of PO(&lambda;=%0.1f)"
+msgstr "Cumulative distribution function of PO(&lambda;=%0.1f)"
+
+#: time_series3/ui.R:6 time_series1/ui.R:6 time_series2/ui.R:6
+msgid "Time series analysis"
+msgstr "Time series analysis"
+
+#: time_series3/ui.R:7 time_series1/ui.R:7 time_series2/ui.R:7
+msgid "Trend"
+msgstr "Trend"
+
+#: time_series3/ui.R:8 time_series1/ui.R:8 time_series2/ui.R:8
+msgid "Seasonality"
+msgstr "Seasonality"
+
+#: time_series3/ui.R:9 time_series1/ui.R:9 time_series2/ui.R:9
+msgid "Model quality"
+msgstr "Model quality"
+
+#: time_series3/server.R:4 time_series1/server.R:4 time_series2/server.R:4
+msgid "Choose trend type"
+msgstr "Choose trend type"
+
+#: time_series3/server.R:8 time_series1/server.R:8 time_series2/server.R:8
+msgid "Choose season type"
+msgstr "Choose season type"
+
+#: time_series3/server.R:12 time_series1/server.R:12 time_series2/server.R:12
+msgid "Show model quality"
+msgstr "Show model quality"
+
+#: time_series3/server.R:15 time_series1/server.R:15 time_series2/server.R:15
+msgid "Select set of  time series set"
+msgstr "Select set of  time series set"
+
+#: time_series3/server.R:18 time_series1/server.R:18 time_series2/server.R:18
+msgid "Select times series"
+msgstr "Select times series"
+
+#: time_series3/server.R:118 time_series3/server.R:124
+#: time_series1/server.R:118 time_series1/server.R:124
+#: time_series2/server.R:118 time_series2/server.R:124
+msgid "Time"
+msgstr "Show model quality"
+
+#: time_series3/server.R:133 time_series1/server.R:133
+#: time_series2/server.R:133
+msgid "seasonal"
+msgstr "seasonal"
+
+#: time_series3/server.R:139 time_series1/server.R:139
+#: time_series2/server.R:139
+msgid "random"
+msgstr "random"
+
+#: time_series3/server.R:159 time_series1/server.R:159
+#: time_series2/server.R:159
+msgid ""
+"Frequency of time series is one, therefore no seasonality estimation is "
+"possible!"
+msgstr ""
+"Frequency of time series is one, therefore no seasonality estimation is "
+"possible!"
+
+#: time_series3/server.R:190 time_series1/server.R:190
+#: time_series2/server.R:190
+msgid "R^2"
+msgstr "R^2"
+
+# dotplot_location/ui.R
+#: dotplot_location/ui.R:6
+msgid "Dotplot with location parameters"
+msgstr "Dotplot with location parameters"
+
+#: dotplot_location/ui.R:7 dotplot_parameter/ui.R:7
+msgid "Choose dotplot type"
+msgstr "Choose dotplot type"
+
+# dotplot_location/ui.R
+#: dotplot_location/ui.R:8
+msgid "Location parameters"
+msgstr "Location parameters"
+
+#: dotplot_location/server.R:13 visualization_distribution/server.R:7
+#: dotplot_parameter/server.R:13
+msgid "Select a Dotplot type"
+msgstr "Select a Dotplot type"
+
+#: dotplot_location/server.R:17 visualization_distribution/server.R:16
+#: dotplot_parameter/server.R:17
+msgid "Add mean (aquamarine, dotted)"
+msgstr "Add mean (aquamarine, dotted)"
+
+#: dotplot_location/server.R:20 visualization_distribution/server.R:19
+#: dotplot_parameter/server.R:20
+msgid "Add median (blue, dashed)"
+msgstr "Add median (blue, dashed)"
+
+# dotplot_location/server.R
+#: dotplot_location/server.R:94 dotplot_parameter/server.R:113
+#, c-format
+msgid "Dotplot (%s) of %s"
+msgstr "Dotplot (%s) of %s"
+
+#: association/ui.R:6
+msgid "Associations"
+msgstr "Associations"
+
+#: association/ui.R:7 correlation/ui.R:8 rank_correlation/ui.R:7
+#: scatterplot/ui.R:8
+msgid "Coefficients"
+msgstr "Coefficients"
+
+#: association/server.R:6 correlation/server.R:14 rank_correlation/server.R:6
+#: scatterplot/server.R:14
+msgid "Show coefficient(s)"
+msgstr "Show coefficient(s)"
+
+#: association/server.R:11 rank_correlation/server.R:12
+msgid "Select column variable"
+msgstr "Select column variable"
+
+#: association/server.R:13 rank_correlation/server.R:14
+msgid "Select row variable"
+msgstr "Select row variable"
+
+#: association/server.R:52
+#, c-format
+msgid "Chi square &chi;<sup>2</sup>=%.3f"
+msgstr "Chi square &chi;<sup>2</sup>=%.3f"
+
+#: association/server.R:55
+#, c-format
+msgid "Contingency coefficient C=%.3f"
+msgstr "Contingency coefficient C=%.3f"
+
+#: association/server.R:58
+#, c-format
+msgid "Corrected contingency coefficient C<sub>c</sub>=%.3f"
+msgstr "Corrected contingency coefficient C<sub>c</sub>=%.3f"
+
+#: association/server.R:61
+#, c-format
+msgid "Cram&eacute;r's V=%.3f"
+msgstr "Cram&eacute;r's V=%.3f"
+
+#: test_two_means/ui.R:6
+msgid "Test of two means"
+msgstr "Test of two means"
+
+#: test_two_means/ui.R:7 test_mean/ui.R:7 test_mean_error/ui.R:8
+#: test_proportion/ui.R:8
+msgid "Test parameter"
+msgstr "Test parameter"
+
+# dotplot_location/ui.R
+#: test_two_means/ui.R:8 test_mean/ui.R:8 sample_param/ui.R:8
+#: test_mean_error/ui.R:9 test_proportion/ui.R:9
+msgid "Sample parameter"
+msgstr "Sample parameter"
+
+#: test_two_means/server.R:131
+msgid " &sigma[1]==sigma[2]; "
+msgstr " &sigma[1]==sigma[2]; "
+
+#: test_two_means/server.R:137
+msgid " &sigma[1]!=sigma[2]; "
+msgstr " &sigma[1]!=sigma[2]; "
+
+#: rds.R:1
+msgid "ALLBUS1992-ECON"
+msgstr "ALLBUS1992: Economics"
+
+#: rds.R:2
+msgid "CURRENT.ECONOMIC.SITUATION.IN.GERMANY"
+msgstr "Current economic situation in Germany"
+
+#: rds.R:3
+msgid "CURRENT.ECONOMIC.SITUATION.IN.FED..STATE"
+msgstr "Current economic situation in federal state"
+
+#: rds.R:4
+msgid "RESP..OWN.CURRENT.FINANCIAL.SITUATION"
+msgstr "Respondents own current financial situation"
+
+#: rds.R:5
+msgid "ECONOMIC.SITUATION.I.GERMANY.IN.ONE.YEAR"
+msgstr "Economic situation in Germany in 1 year"
+
+#: rds.R:6
+msgid "ECONOMIC.SITUATION.FED.STATE.IN.ONE.YEAR"
+msgstr "Economic situation in federal state in 1 year"
+
+#: rds.R:7
+msgid "RESP.OWN.FINANCIAL.SITUATION.IN.ONE.YEAR"
+msgstr "Respondents own financial situation in 1 year"
+
+#: rds.R:8
+msgid "SATISFACTION.WITH.PERFORMANCE.OF.FED.GOV"
+msgstr "Satisfaction with performance of goverment"
+
+#: rds.R:9
+msgid "NET.INCOME.<OPEN.QUEST.+LIST.QUERY>,CAT."
+msgstr "Netincome"
+
+#: rds.R:10
+msgid "HH.INCOME.<OPEN.QUEST.+LIST.QUERY>,.CAT."
+msgstr "Household income"
+
+#: rds.R:11
+msgid "ALLBUS1994-TRUST"
+msgstr "ALLBUS1992: Trust"
+
+#: rds.R:12
+msgid "SELF.PLACEMENT.ON.LEFT.RIGHT.CONTINUUM"
+msgstr "Selfplacement on left-right continuum"
+
+#: rds.R:13
+msgid "TRUST:.HEALTH.SERVICE"
+msgstr "Trust in health service"
+
+#: rds.R:14
+msgid "TRUST:.FEDERAL.CONSTITUTIONAL.COURT"
+msgstr "Trust in constitutional court"
+
+#: rds.R:15
+msgid "TRUST:.BUNDESTAG.<FEDERAL.PARLIAMENT>"
+msgstr "Trust in federal parliament"
+
+#: rds.R:16
+msgid "TRUST:.MUNICIPAL.ADMINISTRATION"
+msgstr "Trust in muncipal administration"
+
+#: rds.R:17
+msgid "TRUST:.ARMY"
+msgstr "Trust in army"
+
+#: rds.R:18
+msgid "TRUST:.CATHOLIC.CHURCH"
+msgstr "Trust in catholic church"
+
+#: rds.R:19
+msgid "TRUST:.PROTESTANT.CHURCH"
+msgstr "Trust in protestant church"
+
+#: rds.R:20
+msgid "TRUST:.JUDICIAL.SYSTEM"
+msgstr "Trust in judical system"
+
+#: rds.R:21
+msgid "TRUST:.TELEVISION"
+msgstr "Trust in television"
+
+#: rds.R:22
+msgid "TRUST:.NEWSPAPERS"
+msgstr "Trust in newspaper"
+
+#: rds.R:23
+msgid "TRUST:.UNIVERSITIES,.HIGHER.EDUCATION"
+msgstr "Trust in universities"
+
+#: rds.R:24
+msgid "TRUST:.FEDERAL.GOVERNMENT"
+msgstr "Trust in federal goverment"
+
+#: rds.R:25
+msgid "TRUST:.TRADE.UNIONS"
+msgstr "Trust in trade unions"
+
+#: rds.R:26
+msgid "TRUST:.POLICE"
+msgstr "Trust in police"
+
+#: rds.R:27
+msgid "TRUST:.JOB.CENTERS"
+msgstr "Trust in job centers"
+
+#: rds.R:28
+msgid "TRUST:.STATE.PENSION.SYSTEM"
+msgstr "Trust in state pension system"
+
+#: rds.R:29
+msgid "TRUST:.EMPLOYER.ASSOCIATIONS"
+msgstr "Trust in employer associations"
+
+#: rds.R:30
+msgid "ALLBUS2002-ECON"
+msgstr "ALLBUS2002: Economics"
+
+#: rds.R:31
+msgid "ALLBUS2002-GENERAL"
+msgstr "ALLBUS2002: General"
+
+#: rds.R:32
+msgid "WEST"
+msgstr "West"
+
+#: rds.R:33
+msgid "OLD FEDERAL STATES"
+msgstr "Old federal states"
+
+#: rds.R:34
+msgid "NEW FEDERAL STATES"
+msgstr "New federal states"
+
+#: rds.R:35
+msgid "INTERVIEW"
+msgstr "Interview type"
+
+#: rds.R:36
+msgid "PAPI"
+msgstr "Paper interview"
+
+#: rds.R:37
+msgid "CAPI"
+msgstr "Computer interview"
+
+#: rds.R:38
+msgid "SEX"
+msgstr "Sex"
+
+#: rds.R:39
+msgid "MALE"
+msgstr "Male"
+
+#: rds.R:40
+msgid "FEMALE"
+msgstr "Female"
+
+#: rds.R:41
+msgid "MEMBER.TRADE.UNION"
+msgstr "Member in trade union"
+
+#: rds.R:42
+msgid "YES"
+msgstr "Yes"
+
+#: rds.R:43
+msgid "NO"
+msgstr "No"
+
+#: rds.R:44
+msgid "SUPPORT.POLITIC.PARTY"
+msgstr "Support of a poltical party"
+
+#: rds.R:45
+msgid "ELIGIBLE.VOTE.LAST.FEDERAL.ELECTION"
+msgstr "Eligible to in last election"
+
+#: rds.R:46
+msgid "AGE"
+msgstr "Age"
+
+#: rds.R:47
+msgid "RESP.MONTHLY.INCOME"
+msgstr "Respondents monthy income"
+
+#: rds.R:48
+msgid "HH.NETINCOME"
+msgstr "Hosuehold netincome"
+
+#: rds.R:49
+msgid "ALLBUS2002-TRUST"
+msgstr "ALLBUS 2002: Trust"
+
+#: rds.R:50
+msgid "TRUST:.POLITICAL.PARTIES"
+msgstr "Trust in political parties"
+
+#: rds.R:51
+msgid "ALLBUS2004-GENERAL"
+msgstr "ALLBUS 2004: General"
+
+#: rds.R:52
+msgid "BODY.MASS.INDEX"
+msgstr "Body mass index"
+
+#: rds.R:53
+msgid "BODY.HEIGHT"
+msgstr "Body height"
+
+#: rds.R:54
+msgid "BODY.WEIGHT"
+msgstr "Body weight"
+
+#: rds.R:55
+msgid "ALLBUS2012-ECON"
+msgstr "ALLBUS 2012: Economics"
+
+#: rds.R:56
+msgid "ALLBUS2012-GENERAL"
+msgstr "ALLBUS 2012: General"
+
+#: rds.R:57
+msgid "ALLBUS2012-TRUST"
+msgstr "ALLBUS 2012: Trust"
+
+#: rds.R:58
+msgid "BOSTONHOUSING"
+msgstr "Boston Housing data"
+
+#: rds.R:59
+msgid "CRIM"
+msgstr "Per capita crime rate by town "
+
+#: rds.R:60
+msgid "ZN"
+msgstr "Proportion of residential land zoned for lots over 25,000 sq.ft "
+
+#: rds.R:61
+msgid "INDUS"
+msgstr "Proportion of non-retail business acres per town "
+
+#: rds.R:62
+msgid "CHAS"
+msgstr "Charles River dummy variable"
+
+#: rds.R:63
+msgid "NOX"
+msgstr "Nitric oxides concentration"
+
+#: rds.R:64
+msgid "RM"
+msgstr "Average number of rooms"
+
+#: rds.R:65
+msgid "DIS"
+msgstr "Weighted distances to five Boston employment centres "
+
+#: rds.R:66
+msgid "RAD"
+msgstr "Index of accessibility to radial highways"
+
+#: rds.R:67
+msgid "TAX"
+msgstr "Full-value property-tax rate"
+
+#: rds.R:68
+msgid "PTRATIO"
+msgstr "Pupil-teacher ratio by town"
+
+#: rds.R:69
+msgid "BLACK"
+msgstr "Proportion of blacks by town (transformed)"
+
+#: rds.R:70
+msgid "LSTAT"
+msgstr "Lower status people"
+
+#: rds.R:71
+msgid "MEDV"
+msgstr "Median value of owner-occupied homes"
+
+#: rds.R:72
+msgid "CARS"
+msgstr "Car Data"
+
+#: rds.R:73
+msgid "CARMARK"
+msgstr "Car mark"
+
+#: rds.R:74
+msgid "AMC_Concord"
+msgstr "AMC Concord"
+
+#: rds.R:75
+msgid "AMC_Pacer"
+msgstr "AMC Pacer"
+
+#: rds.R:76
+msgid "AMC_Spirit"
+msgstr "AMC Spirit"
+
+#: rds.R:77
+msgid "Audi_5000"
+msgstr "Audi 5000"
+
+#: rds.R:78
+msgid "Audi_Fox"
+msgstr "Audi Fox"
+
+#: rds.R:79
+msgid "BMW_320i"
+msgstr "BMW 320i"
+
+#: rds.R:80
+msgid "Buick_Century"
+msgstr "Buick Century"
+
+#: rds.R:81
+msgid "Buick_Electra"
+msgstr "Buick Electra"
+
+#: rds.R:82
+msgid "Buick_Le_Sabre"
+msgstr "Buick Le Sabre"
+
+#: rds.R:83
+msgid "Buick_Opel"
+msgstr "Buick Opel"
+
+#: rds.R:84
+msgid "Buick_Regal"
+msgstr "Buick Regal"
+
+#: rds.R:85
+msgid "Buick_Riviera"
+msgstr "Buick Riviera"
+
+#: rds.R:86
+msgid "Buick_Skylark"
+msgstr "Buick Skylark"
+
+#: rds.R:87
+msgid "Cad._Deville"
+msgstr "Cadillac de Ville"
+
+#: rds.R:88
+msgid "Cad._Eldorado"
+msgstr "Cadillac Eldorado"
+
+#: rds.R:89
+msgid "Cad._Seville"
+msgstr "Cadillac Seville"
+
+#: rds.R:90
+msgid "Chev._Chevette"
+msgstr "Chevrolet Chevette"
+
+#: rds.R:91
+msgid "Chev._Impala"
+msgstr "Chevrolet Impala"
+
+#: rds.R:92
+msgid "Chev._Malibu"
+msgstr "Chevrolet Malibu"
+
+#: rds.R:93
+msgid "Chev._Monte_Carlo"
+msgstr "Chevrolet Monte Carlo"
+
+#: rds.R:94
+msgid "Chev._Monza"
+msgstr "Chevrolet Monza"
+
+#: rds.R:95
+msgid "Chev._Nova"
+msgstr "Chevrolet Nova"
+
+#: rds.R:96
+msgid "Datsun_200-SX"
+msgstr "Datsun 200-SX"
+
+#: rds.R:97
+msgid "Datsun_210"
+msgstr "Datsun 210"
+
+#: rds.R:98
+msgid "Datsun_510"
+msgstr "Datsun 510"
+
+#: rds.R:99
+msgid "Datsun_810"
+msgstr "Datsun 810"
+
+#: rds.R:100
+msgid "Dodge_Colt"
+msgstr "Dodge Colt"
+
+#: rds.R:101
+msgid "Dodge_Diplomat"
+msgstr "Dodge Diplomat"
+
+#: rds.R:102
+msgid "Dodge_Magnum_XE"
+msgstr "Dodge Magnum XE"
+
+#: rds.R:103
+msgid "Dodge_St._Regis"
+msgstr "Dodge St. Regis"
+
+#: rds.R:104
+msgid "Fiat_Strada"
+msgstr "Fiat Strada"
+
+#: rds.R:105
+msgid "Ford_Fiesta"
+msgstr "Ford Fiesta"
+
+#: rds.R:106
+msgid "Ford_Mustang"
+msgstr "Ford Mustang"
+
+#: rds.R:107
+msgid "Honda_Accord"
+msgstr "Honda Accord"
+
+#: rds.R:108
+msgid "Honda_Civic"
+msgstr "Honda Civic"
+
+#: rds.R:109
+msgid "Linc._Cont_Mark_V"
+msgstr "Lincoln Continental Mark V"
+
+#: rds.R:110
+msgid "Linc._Continental"
+msgstr "Lincoln Continental"
+
+#: rds.R:111
+msgid "Linc._Versailles"
+msgstr "Lincoln Versailles"
+
+#: rds.R:112
+msgid "Mazda_GLC"
+msgstr "Mazda GLC"
+
+#: rds.R:113
+msgid "Merc._Bobcat"
+msgstr "Mercury Bobcat"
+
+#: rds.R:114
+msgid "Merc._Cougar"
+msgstr "Mercury Cougar"
+
+#: rds.R:115
+msgid "Merc._Cougar_XR-7"
+msgstr "Mercury Cougar XR-7"
+
+#: rds.R:116
+msgid "Merc._Marquis"
+msgstr "Mercury Marquis"
+
+#: rds.R:117
+msgid "Merc._Monarch"
+msgstr "Mercury Monarch"
+
+#: rds.R:118
+msgid "Merc._Zephyr"
+msgstr "Mercury Monarch"
+
+#: rds.R:119
+msgid "Olds._98"
+msgstr "Oldsmobile 98"
+
+#: rds.R:120
+msgid "Olds._Cutl_Supr"
+msgstr "Oldsmobile Cutlass Supreme"
+
+#: rds.R:121
+msgid "Olds._Cutlass"
+msgstr "Oldsmobile Cutlass"
+
+#: rds.R:122
+msgid "Olds._Delta_88"
+msgstr "Oldsmobile Delta 88"
+
+#: rds.R:123
+msgid "Olds._Omega"
+msgstr "Oldsmobile Omega"
+
+#: rds.R:124
+msgid "Olds._Starfire"
+msgstr "Oldsmobile Starfire"
+
+#: rds.R:125
+msgid "Olds._Tornado"
+msgstr "Oldsmobile Tornado"
+
+#: rds.R:126
+msgid "Peugeot_604_SL"
+msgstr "Peugeot 604 SL"
+
+#: rds.R:127
+msgid "Plym._Arrow"
+msgstr "Plymouth Arrow"
+
+#: rds.R:128
+msgid "Plym._Champ"
+msgstr "Plymouth Champ"
+
+#: rds.R:129
+msgid "Plym._Horizon"
+msgstr "Plymouth Horizon"
+
+#: rds.R:130
+msgid "Plym._Sapporo"
+msgstr "Plymouth Sapporo"
+
+#: rds.R:131
+msgid "Plym._Volare"
+msgstr "Plymouth Volare"
+
+#: rds.R:132
+msgid "Pont._Catalina"
+msgstr "Pontiac Catalina"
+
+#: rds.R:133
+msgid "Pont._Firebird"
+msgstr "Pontiac Firebird"
+
+#: rds.R:134
+msgid "Pont._Grand_Prix"
+msgstr "Pontiac Grand Prix"
+
+#: rds.R:135
+msgid "Pont._Le_Mans"
+msgstr "Pontiac Le Mans"
+
+#: rds.R:136
+msgid "Pont._Phoenix"
+msgstr "Pontiac Phoenix"
+
+#: rds.R:137
+msgid "Pont._Sunbird"
+msgstr "Pontiac Sunbird"
+
+#: rds.R:138
+msgid "Renault_Le_Car"
+msgstr "Renault Le Car"
+
+#: rds.R:139
+msgid "Subaru"
+msgstr "Subaru"
+
+#: rds.R:140
+msgid "Toyota_Cecila"
+msgstr "Toyota Cecila"
+
+#: rds.R:141
+msgid "Toyota_Corolla"
+msgstr "Toyota Corolla"
+
+#: rds.R:142
+msgid "Toyota_Corona"
+msgstr "Toyota Corona"
+
+#: rds.R:143
+msgid "VW_Dasher"
+msgstr "VW Dasher"
+
+#: rds.R:144
+msgid "VW_Rabbit"
+msgstr "VW Rabbit"
+
+#: rds.R:145
+msgid "VW_Rabbit_Diesel"
+msgstr "VW Rabbit Diesel"
+
+#: rds.R:146
+msgid "VW_Scirocco"
+msgstr "VW Scirocco"
+
+#: rds.R:147
+msgid "Volvo_260"
+msgstr "VW Scirocco"
+
+#: rds.R:148
+msgid "PRICE"
+msgstr "Price"
+
+#: rds.R:149
+msgid "MILEAGE"
+msgstr "Mileage"
+
+#: rds.R:150
+msgid "REPAIR_RECORD_1978"
+msgstr "Repair record (1978)"
+
+#: rds.R:151
+msgid "REPAIR_RECORD_1977"
+msgstr "Repair record (1977)"
+
+#: rds.R:152
+msgid "HEADROOM"
+msgstr "Headroom"
+
+#: rds.R:153
+msgid "REAR_SEAT_CLARANCE"
+msgstr "Rear seat clarance"
+
+#: rds.R:154
+msgid "TRUNK_SPACE"
+msgstr "Trunk space"
+
+#: rds.R:155
+msgid "WEIGHT"
+msgstr "Weight"
+
+#: rds.R:156
+msgid "LENGTH"
+msgstr "Length"
+
+#: rds.R:157
+msgid "TURNING_DIAMETER"
+msgstr "Turning diameter"
+
+#: rds.R:158
+msgid "DISPLACEMENT"
+msgstr "Displacement"
+
+#: rds.R:159
+msgid "GEAR_RATIO_FOR_HIGH_GEAR"
+msgstr "Gear ratio for high gear"
+
+#: rds.R:160
+msgid "CREDIT"
+msgstr "German credit data"
+
+#: rds.R:161
+msgid "CREDITWORTHY"
+msgstr "Creditworthiness"
+
+#: rds.R:162
+msgid "not credit-worthy"
+msgstr "not credit-worthy"
+
+#: rds.R:163
+msgid "credit-worthy"
+msgstr "credit-worthy"
+
+#: rds.R:164
+msgid "DURATION"
+msgstr "Duration in month"
+
+#: rds.R:165
+msgid "REPAYMENT"
+msgstr "Payment of previous credits"
+
+#: rds.R:166
+msgid "problems"
+msgstr "problems"
+
+#: rds.R:167
+msgid "no problems"
+msgstr "no problems"
+
+#: rds.R:168
+msgid "PURPOSE"
+msgstr "Purpose of credit"
+
+#: rds.R:169
+msgid "other"
+msgstr "other"
+
+#: rds.R:170
+msgid "new car"
+msgstr "new car"
+
+#: rds.R:171
+msgid "used car"
+msgstr "used car"
+
+#: rds.R:172
+msgid "furniture"
+msgstr "furniture"
+
+#: rds.R:173
+msgid "television"
+msgstr "television"
+
+#: rds.R:174
+msgid "household appliances"
+msgstr "household appliances"
+
+#: rds.R:175
+msgid "repair"
+msgstr "repair"
+
+#: rds.R:176
+msgid "vacation"
+msgstr "vacation"
+
+#: rds.R:177
+msgid "retraining"
+msgstr "retraining"
+
+#: rds.R:178
+msgid "business"
+msgstr "business"
+
+#: rds.R:179
+msgid "AMOUNT"
+msgstr "Amount"
+
+#: rds.R:180
+msgid "SAVINGS"
+msgstr "Value of savings or stocks"
+
+#: rds.R:181
+msgid "yes"
+msgstr "yes"
+
+#: rds.R:182
+msgid "no"
+msgstr "no"
+
+#: rds.R:183
+msgid "EMPLOYED_SINCE"
+msgstr "Has been employed by current employer"
+
+#: rds.R:184
+msgid "more than one year"
+msgstr "more than one year"
+
+#: rds.R:185
+msgid "less than one year"
+msgstr "less than one year"
+
+#: rds.R:186
+msgid "FAMILY_GENDER"
+msgstr "Personal status and sex"
+
+#: rds.R:187
+msgid "male divorced/living apart"
+msgstr "male divorced/living apart"
+
+#: rds.R:188
+msgid "GUARANTOR"
+msgstr "Other debtors / guarantors"
+
+#: rds.R:189
+msgid "LIVING"
+msgstr "Present residence since"
+
+#: rds.R:190
+msgid "house/land"
+msgstr "house/land"
+
+#: rds.R:191
+msgid "other/none"
+msgstr "other/none"
+
+#: rds.R:192
+msgid "AT_PRES_ADDR"
+msgstr "Living in current household"
+
+#: rds.R:193
+msgid "<1 year"
+msgstr "<1 year"
+
+#: rds.R:194
+msgid "1-4 years"
+msgstr "1-4 years"
+
+#: rds.R:195
+msgid "4-7 years"
+msgstr "4-7 years"
+
+#: rds.R:196
+msgid ">=7 years"
+msgstr ">=7 years"
+
+#: rds.R:197
+msgid "OTHERCREDITS"
+msgstr "Further running credits"
+
+#: rds.R:198
+msgid "APPARTMENT_TYPE"
+msgstr "Type of apartment"
+
+#: rds.R:199
+msgid "rented"
+msgstr "rented"
+
+#: rds.R:200
+msgid "PREV_CREDIT"
+msgstr "Number of previous credits at this bank"
+
+#: rds.R:201
+msgid "1 or more"
+msgstr "1 or more"
+
+#: rds.R:202
+msgid "none"
+msgstr "none"
+
+#: rds.R:203
+msgid "OCCUPATION"
+msgstr "Occupation"
+
+#: rds.R:204
+msgid "skilled"
+msgstr "skilled"
+
+#: rds.R:205
+msgid "unskilled/umemployed"
+msgstr "unskilled/umemployed"
+
+#: rds.R:206
+msgid "MAINTENANCE"
+msgstr "Number of persons entitled to maintenance"
+
+#: rds.R:207
+msgid "3 and more"
+msgstr "3 and more"
+
+#: rds.R:208
+msgid "0 to 2"
+msgstr "0 to 2"
+
+#: rds.R:209
+msgid "TELEPHONE"
+msgstr "Telephone"
+
+#: rds.R:210
+msgid "FOREIGN_WORKER"
+msgstr "Foreign worker "
+
+#: rds.R:211
+msgid "ACCOUNT"
+msgstr "Account at bank"
+
+#: rds.R:212
+msgid "DECATHLON"
+msgstr "Decathlon Data"
+
+#: rds.R:213
+msgid "RUN_100M"
+msgstr "Run 100m"
+
+#: rds.R:214
+msgid "LONG_JUMP"
+msgstr "Long jump"
+
+#: rds.R:215
+msgid "SHOTPUT"
+msgstr "Shotput"
+
+#: rds.R:216
+msgid "HIGH_JUMP"
+msgstr "High jump"
+
+#: rds.R:217
+msgid "RUN_400M"
+msgstr "Run 400m"
+
+#: rds.R:218
+msgid "HURDLES_110M"
+msgstr "Hurdles 110m"
+
+#: rds.R:219
+msgid "DISCUS_THROW"
+msgstr "Discus throw"
+
+#: rds.R:220
+msgid "PLOE_VAULT"
+msgstr "Ploe vault"
+
+#: rds.R:221
+msgid "JAVELIN"
+msgstr "Javelin"
+
+#: rds.R:222
+msgid "RUN_1500M"
+msgstr "Run 1500m"
+
+#: rds.R:223
+msgid "SCORE"
+msgstr "Score"
+
+#: rds.R:224
+msgid "HAIR.EYE.COLOR"
+msgstr "Hair and Eye Color of Statistics Students"
+
+#: rds.R:225
+msgid "COLOR.HAIR"
+msgstr "Hair color"
+
+#: rds.R:226
+msgid "Black"
+msgstr "Black"
+
+#: rds.R:227
+msgid "Brown"
+msgstr "Brown"
+
+#: rds.R:228
+msgid "Red"
+msgstr "Red"
+
+#: rds.R:229
+msgid "Blond"
+msgstr "Blond"
+
+#: rds.R:230
+msgid "COLOR.EYE"
+msgstr "Eye color"
+
+#: rds.R:231
+msgid "Blue"
+msgstr "Blue"
+
+#: rds.R:232
+msgid "Hazel"
+msgstr "Hazel"
+
+#: rds.R:233
+msgid "Green"
+msgstr "Green"
+
+#: rds.R:234
+msgid "COLOR.SEX"
+msgstr "Sex"
+
+#: rds.R:235
+msgid "Male"
+msgstr "Male"
+
+#: rds.R:236
+msgid "Female"
+msgstr "Female"
+
+#: rds.R:237
+msgid "COLOR.FREQ"
+msgstr "Frequency"
+
+#: rds.R:238
+msgid "INDEX-BASIC-RENT-BERLIN"
+msgstr "Index of basic rent in Berlin"
+
+#: rds.R:240
+msgid "NORM_0_1"
+msgstr "Normal distribution N(0;1)"
+
+#: rds.R:241
+msgid "NORM_0_2"
+msgstr "Normal distribution N(0;2)"
+
+#: rds.R:242
+msgid "NORM_0_5"
+msgstr "Normal distribution N(0;5)"
+
+#: rds.R:243
+msgid "NORM_1_1"
+msgstr "Normal distribution N(1;1)"
+
+#: rds.R:244
+msgid "NORM_1_2"
+msgstr "Normal distribution N(1;2)"
+
+#: rds.R:245
+msgid "NORM_1_5"
+msgstr "Normal distribution N(1;5)"
+
+#: rds.R:246
+msgid "NORM_5_1"
+msgstr "Normal distribution N(5;1)"
+
+#: rds.R:247
+msgid "NORM_5_2"
+msgstr "Normal distribution N(5;2)"
+
+#: rds.R:248
+msgid "NORM_5_5"
+msgstr "Normal distribution N(5;5)"
+
+#: rds.R:249
+msgid "NORM_10_1"
+msgstr "Normal distribution N(10;1)"
+
+#: rds.R:250
+msgid "NORM_10_2"
+msgstr "Normal distribution N(10;2)"
+
+#: rds.R:251
+msgid "NORM_10_5"
+msgstr "Normal distribution N(10;5)"
+
+#: rds.R:252
+msgid "TITANIC"
+msgstr "Titanic data"
+
+#: rds.R:253
+msgid "TITANIC.CLASS"
+msgstr "Class"
+
+#: rds.R:254
+msgid "1st"
+msgstr "1st"
+
+#: rds.R:255
+msgid "2nd"
+msgstr "2nd"
+
+#: rds.R:256
+msgid "3rd"
+msgstr "3rd"
+
+#: rds.R:257
+msgid "Crew"
+msgstr "Crew"
+
+#: rds.R:258
+msgid "TITANIC.SEX"
+msgstr "Sex"
+
+#: rds.R:259
+msgid "TITANIC.AGE"
+msgstr "Age"
+
+#: rds.R:260
+msgid "Child"
+msgstr "Child"
+
+#: rds.R:261
+msgid "Adult"
+msgstr "Adult"
+
+#: rds.R:262
+msgid "TITANIC.SURVIVED"
+msgstr "Survived"
+
+#: rds.R:263
+msgid "Not survived"
+msgstr "Not survived"
+
+#: rds.R:264
+msgid "Survived"
+msgstr "Survived"
+
+#: rds.R:265
+msgid "TITANIC.FREQ"
+msgstr "Frequency"
+
+#: rds.R:266
+msgid "USCRIME"
+msgstr "U.S. Crime Data"
+
+#: rds.R:267
+msgid "STATE"
+msgstr "State"
+
+#: rds.R:268
+msgid "AK"
+msgstr "Alaska"
+
+#: rds.R:269
+msgid "AL"
+msgstr "Alabama"
+
+#: rds.R:270
+msgid "AR"
+msgstr "Arkansas"
+
+#: rds.R:271
+msgid "AZ"
+msgstr "Arizona"
+
+#: rds.R:272
+msgid "CA"
+msgstr "CA"
+
+#: rds.R:273
+msgid "CO"
+msgstr "Colorado"
+
+#: rds.R:274
+msgid "CT"
+msgstr "Connecticut"
+
+#: rds.R:275
+msgid "DE"
+msgstr "Delaware"
+
+#: rds.R:276
+msgid "FL"
+msgstr "Florida"
+
+#: rds.R:277
+msgid "GA"
+msgstr "Georgia"
+
+#: rds.R:278
+msgid "HI"
+msgstr "Hawaii"
+
+#: rds.R:279
+msgid "IA"
+msgstr "Iowa"
+
+#: rds.R:280
+msgid "ID"
+msgstr "Idaho"
+
+#: rds.R:281
+msgid "IL"
+msgstr "Illinois"
+
+#: rds.R:282
+msgid "IN"
+msgstr "Indiana"
+
+#: rds.R:283
+msgid "KS"
+msgstr "Kansas"
+
+#: rds.R:284
+msgid "KY"
+msgstr "Kentucky"
+
+#: rds.R:285
+msgid "LA"
+msgstr "Louisiana"
+
+#: rds.R:286
+msgid "MA"
+msgstr "Massachusetts"
+
+#: rds.R:287
+msgid "MD"
+msgstr "Maryland"
+
+#: rds.R:288
+msgid "ME"
+msgstr "Maine"
+
+#: rds.R:289
+msgid "MI"
+msgstr "Michigan"
+
+#: rds.R:290
+msgid "MN"
+msgstr "Minnesota"
+
+#: rds.R:291
+msgid "MO"
+msgstr "Missouri"
+
+#: rds.R:292
+msgid "MS"
+msgstr "Mississippi"
+
+#: rds.R:293
+msgid "MT"
+msgstr "Montana"
+
+#: rds.R:294
+msgid "NC"
+msgstr "North Carolina"
+
+#: rds.R:295
+msgid "ND"
+msgstr "North Dakota"
+
+#: rds.R:296
+msgid "NE"
+msgstr "Nebraska"
+
+#: rds.R:297
+msgid "NH"
+msgstr "New Hampshire"
+
+#: rds.R:298
+msgid "NJ"
+msgstr "New Jersey"
+
+#: rds.R:299
+msgid "NM"
+msgstr "New Mexico"
+
+#: rds.R:300
+msgid "NV"
+msgstr "Nevada"
+
+#: rds.R:301
+msgid "NY"
+msgstr "New York"
+
+#: rds.R:302
+msgid "OH"
+msgstr "Ohio"
+
+#: rds.R:303
+msgid "OK"
+msgstr "Oklahoma"
+
+#: rds.R:304
+msgid "OR"
+msgstr "Oregon"
+
+#: rds.R:305
+msgid "PA"
+msgstr "Pennsylvania"
+
+#: rds.R:306
+msgid "RI"
+msgstr "Rhode Island"
+
+#: rds.R:307
+msgid "SC"
+msgstr "South Carolina"
+
+#: rds.R:308
+msgid "SD"
+msgstr "South Dakota"
+
+#: rds.R:309
+msgid "TN"
+msgstr "Tennessee"
+
+#: rds.R:310
+msgid "TX"
+msgstr "Texas"
+
+#: rds.R:311
+msgid "UT"
+msgstr "Utah"
+
+#: rds.R:312
+msgid "VA"
+msgstr "Virginia"
+
+#: rds.R:313
+msgid "VT"
+msgstr "Vermont"
+
+#: rds.R:314
+msgid "WA"
+msgstr "Washington"
+
+#: rds.R:315
+msgid "WI"
+msgstr "Wisconsin"
+
+#: rds.R:316
+msgid "WV"
+msgstr "West Virginia"
+
+#: rds.R:317
+msgid "WY"
+msgstr "Wyoming"
+
+#: rds.R:318
+msgid "TOTALAREA"
+msgstr "Total area"
+
+#: rds.R:319
+msgid "POPULATION"
+msgstr "Population (1985)"
+
+#: rds.R:320
+msgid "MURDER"
+msgstr "Murder"
+
+#: rds.R:321
+msgid "ROBBERY"
+msgstr "Robbery"
+
+#: rds.R:322
+msgid "ASSAULT"
+msgstr "Assault"
+
+#: rds.R:323
+msgid "BURGLARY"
+msgstr "Burglary"
+
+#: rds.R:324
+msgid "LARCENY"
+msgstr "Larceny"
+
+#: rds.R:325
+msgid "CAR_THEFT"
+msgstr "Car theft"
+
+#: rds.R:326
+msgid "REGION"
+msgstr "Region"
+
+#: rds.R:327
+msgid "Midwest"
+msgstr "Midwest"
+
+#: rds.R:328
+msgid "Northeast"
+msgstr "Northeast"
+
+#: rds.R:329
+msgid "South"
+msgstr "South"
+
+#: rds.R:330
+msgid "West"
+msgstr "West"
+
+#: rds.R:331
+msgid "DIVISION"
+msgstr "Division"
+
+#: rds.R:332
+msgid "E N Central"
+msgstr "East North Central"
+
+#: rds.R:333
+msgid "E S Central"
+msgstr "East South Central"
+
+#: rds.R:334
+msgid "Mid Atlantic"
+msgstr "Mid Atlantic"
+
+#: rds.R:335
+msgid "Mountain"
+msgstr "Mountain"
+
+#: rds.R:336
+msgid "New England"
+msgstr "New England"
+
+#: rds.R:337
+msgid "Pacific"
+msgstr "Pacific"
+
+#: rds.R:338
+msgid "S Atlantic"
+msgstr "South Atlantic"
+
+#: rds.R:339
+msgid "W N Central"
+msgstr "West North Central"
+
+#: rds.R:340
+msgid "W S Central"
+msgstr "West South Central"
+
+#: rds.R:341
+msgid "FULLNAME"
+msgstr "Full name"
+
+#: rds.R:342
+msgid "Alabama"
+msgstr "Alabama"
+
+#: rds.R:343
+msgid "Alaska"
+msgstr "Alaska"
+
+#: rds.R:344
+msgid "Arizona"
+msgstr "Arizona"
+
+#: rds.R:345
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: rds.R:346
+msgid "California"
+msgstr "California"
+
+#: rds.R:347
+msgid "Colorado"
+msgstr "Colorado"
+
+#: rds.R:348
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: rds.R:349
+msgid "Delaware"
+msgstr "Delaware"
+
+#: rds.R:350
+msgid "Florida"
+msgstr "Florida"
+
+#: rds.R:351
+msgid "Georgia"
+msgstr "Georgia"
+
+#: rds.R:352
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#: rds.R:353
+msgid "Idaho"
+msgstr "Idaho"
+
+#: rds.R:354
+msgid "Illinois"
+msgstr "Illinois"
+
+#: rds.R:355
+msgid "Indiana"
+msgstr "Indiana"
+
+#: rds.R:356
+msgid "Iowa"
+msgstr "Iowa"
+
+#: rds.R:357
+msgid "Kansas"
+msgstr "Kansas"
+
+#: rds.R:358
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: rds.R:359
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: rds.R:360
+msgid "Maine"
+msgstr "Maine"
+
+#: rds.R:361
+msgid "Maryland"
+msgstr "Maryland"
+
+#: rds.R:362
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: rds.R:363
+msgid "Michigan"
+msgstr "Michigan"
+
+#: rds.R:364
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: rds.R:365
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: rds.R:366
+msgid "Missouri"
+msgstr "Missouri"
+
+#: rds.R:367
+msgid "Montana"
+msgstr "Montana"
+
+#: rds.R:368
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: rds.R:369
+msgid "Nevada"
+msgstr "Nevada"
+
+#: rds.R:370
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: rds.R:371
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: rds.R:372
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#: rds.R:373
+msgid "New York"
+msgstr "New York"
+
+#: rds.R:374
+msgid "North Carolina"
+msgstr "North Carolina"
+
+#: rds.R:375
+msgid "North Dakota"
+msgstr "North Dakota"
+
+#: rds.R:376
+msgid "Ohio"
+msgstr "Ohio"
+
+#: rds.R:377
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: rds.R:378
+msgid "Oregon"
+msgstr "Oregon"
+
+#: rds.R:379
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: rds.R:380
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: rds.R:381
+msgid "South Carolina"
+msgstr "South Carolina"
+
+#: rds.R:382
+msgid "South Dakota"
+msgstr "South Dakota"
+
+#: rds.R:383
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: rds.R:384
+msgid "Texas"
+msgstr "Texas"
+
+#: rds.R:385
+msgid "Utah"
+msgstr "Utah"
+
+#: rds.R:386
+msgid "Vermont"
+msgstr "Vermont"
+
+#: rds.R:387
+msgid "Virginia"
+msgstr "Virginia"
+
+#: rds.R:388
+msgid "Washington"
+msgstr "Washington"
+
+#: rds.R:389
+msgid "West Virginia"
+msgstr "West Virginia"
+
+#: rds.R:390
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: rds.R:391
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: test_mean/ui.R:6
+msgid "Test of mean"
+msgstr "Test of mean"
+
+#: test_mean/server.R:7 test_mean_error/server.R:8
+msgid "Hypothetical mean (&mu;<sub>0</sub>)"
+msgstr "Hypothetical mean (&mu;<sub>0</sub>)"
+
+#: test_mean/server.R:122 test_mean_error/server.R:193
+msgid " &sigma; known"
+msgstr " &sigma; known"
+
+#: test_mean/server.R:126
+msgid " &sigma; estimated"
+msgstr " &sigma; estimated"
+
+#: sample_param/ui.R:7
+msgid "Distribution of sample parameters"
+msgstr "Distribution of sample parameters"
+
+#: sample_param/ui.R:9 monty_hall/ui.R:8
+msgid "Specify speed"
+msgstr "Specify speed"
+
+# dotplot_location/ui.R
+#: sample_param/server.R:8
+msgid "Select parameter"
+msgstr "Select parameter"
+
+#: sample_param/server.R:146
+#, c-format
+msgid "Distribution of %s based on %.0f samples of size n=%.0f"
+msgstr "Distribution of %s based on %.0f samples of size n=%.0f"
+
+#: distribution_normal/ui.R:7 distribution_exponential/ui.R:7
+msgid "Continuous probability distributions"
+msgstr "Continuous probability distributions"
+
+#: distribution_normal/server.R:21 distribution_exponential/server.R:20
+msgid "Mean (&mu;)"
+msgstr "Mean (&mu;)"
+
+#: distribution_normal/server.R:27 distribution_exponential/server.R:26
+msgid "Variance (&sigma;<sup>2</sup>)"
+msgstr "Variance (&sigma;<sup>2</sup>)"
+
+#: distribution_normal/server.R:49 distribution_exponential/server.R:48
+msgid "INTRO_EXP"
+msgstr "INTRO_EXP"
+
+#: distribution_normal/server.R:53 distribution_exponential/server.R:52
+msgid "INTRO_NORM"
+msgstr "INTRO_NORM"
+
+#: distribution_normal/server.R:134 distribution_exponential/server.R:133
+#, c-format
+msgid "Density function f(x) of EX(&lambda;=%.1f)"
+msgstr "Density function f(x) of EX(&lambda;=%.1f)"
+
+#: distribution_normal/server.R:142 distribution_exponential/server.R:141
+#, c-format
+msgid "Cumulative distribution function F(x) of EX(&lambda;=%.1f)"
+msgstr "Cumulative distribution function F(x) of EX(&lambda;=%.1f)"
+
+#: distribution_normal/server.R:159 distribution_exponential/server.R:158
+#, c-format
+msgid "Density function f(x) of N(&mu;=%.1f,&sigma^2;=%.1f)"
+msgstr "Density function f(x) of N(&mu;=%.1f,&sigma^2;=%.1f)"
+
+#: distribution_normal/server.R:169 distribution_exponential/server.R:168
+#, c-format
+msgid "Cumulative distribution function F(x) of N(&mu;=%.1f,&sigma^2;=%.1f)"
+msgstr "Cumulative distribution function F(x) of N(&mu;=%.1f,&sigma^2;=%.1f)"
+
+# visualization_distribution/ui.R
+#: visualization_distribution/ui.R:6
+msgid "Variable visualizations"
+msgstr "Variable visualizations"
+
+# dotplot_location/ui.R
+#: visualization_distribution/ui.R:7
+msgid "Plot parameter"
+msgstr "Plot parameter"
+
+#: visualization_distribution/ui.R:8
+msgid "Descriptives"
+msgstr "Descriptives"
+
+#: visualization_distribution/server.R:11
+msgid "Histogram: choose number of bins"
+msgstr "Histogram: choose number of bins"
+
+#: visualization_distribution/server.R:22 histogram_simple/server.R:10
+msgid "Show observations"
+msgstr "Show observations"
+
+#: visualization_distribution/server.R:47 test_mean_error/server.R:118
+#: test_proportion/server.R:149
+msgid "distText.html"
+msgstr "distText.html"
+
+#: visualization_distribution/server.R:84
+#, c-format
+msgid "Dotplot (%s)"
+msgstr "Dotplot (%s)"
+
+#: visualization_distribution/server.R:109 histogram_simple/server.R:49
+msgid "Histogram"
+msgstr "Histogram"
+
+#: visualization_distribution/server.R:110 histogram_simple/server.R:51
+msgid "Absolute frequency"
+msgstr "Absolute frequency"
+
+#: visualization_distribution/server.R:143
+msgid "Boxplot"
+msgstr "Boxplot"
+
+#: visualization_distribution/server.R:163
+msgid " Ecdf "
+msgstr " Ecdf "
+
+#: test_mean_error/ui.R:7
+msgid "Test of mean with type I and II error"
+msgstr "Test of mean with type I and II error"
+
+#: test_mean_error/server.R:129 test_proportion/server.R:138
+msgid "Reject H<sub>0</sub>"
+msgstr "Reject H<sub>0</sub>"
+
+#: test_mean_error/server.R:129 test_proportion/server.R:138
+msgid "Can not reject H<sub>0</sub>"
+msgstr "Can not reject H<sub>0</sub>"
+
+#: test_mean_error/server.R:248
+msgid "Error"
+msgstr "Error"
+
+#: test_mean_error/server.R:249
+msgid "type I"
+msgstr "type I"
+
+#: test_mean_error/server.R:249
+msgid "type II"
+msgstr "type II"
+
+# dotplot_location/ui.R
+#: dotplot_parameter/ui.R:6
+msgid "Dotplot with parameters"
+msgstr "Dotplot with parameters"
+
+#: dotplot_parameter/ui.R:8
+msgid "Parameters"
+msgstr "Parameters"
+
+# dotplot_parameter/ui.R
+#: dotplot_parameter/server.R:23
+msgid "Add range (orange, dotted)"
+msgstr "Add range (orange, dotted)"
+
+#: dotplot_parameter/server.R:26
+msgid "Add interquartile range (pink, dashed)"
+msgstr "Add interquartile range (pink, dashed)"
+
+#: test_proportion/ui.R:7
+msgid "Test of proportion"
+msgstr "Test of proportion"
+
+#: test_proportion/server.R:8
+msgid "Hypothetical proportion (&pi;<sub>0</sub>)"
+msgstr "Hypothetical proportion (&pi;<sub>0</sub>)"
+
+#: test_proportion/server.R:139
+msgid "Normal approximation of test statistics &hat(Pi); is NOT applicable!"
+msgstr "Normal approximation of test statistics &hat(Pi); is NOT applicable!"
+
+#: correlation/ui.R:6 scatterplot/ui.R:6
+msgid "Scatterplots and correlation"
+msgstr "Scatterplots and correlation"
+
+#: correlation/ui.R:7 scatterplot/ui.R:7
+msgid "Graphics"
+msgstr "Graphics"
+
+#: correlation/server.R:8 scatterplot/server.R:8
+msgid "Select a scatterplot type"
+msgstr "Select a scatterplot type"
+
+#: correlation/server.R:12 scatterplot/server.R:12
+msgid "Cycle axes"
+msgstr "Cycle axes"
+
+#: correlation/server.R:111 scatterplot/server.R:111
+msgid "Please select two, three or more variables!"
+msgstr "Please select two, three or more variables!"
+
+#: correlation/server.R:147 scatterplot/server.R:147
+msgid "Coefficients are not available for 3D Scatterplot"
+msgstr "Coefficients are not available for 3D Scatterplot"
+
+#: monty_hall/ui.R:6
+msgid "Let's Make a Deal"
+msgstr "Let's Make a Deal"
+
+#: monty_hall/ui.R:7 monty_hall/server.R:11
+msgid "Make a deal"
+msgstr "Make a deal"
+
+#: monty_hall/server.R:8
+msgid "1. Guest points"
+msgstr "1. Guest points"
+
+#: monty_hall/server.R:10
+msgid "3. Guest decides to"
+msgstr "3. Guest decides to"
+
+#: monty_hall/server.R:79
+msgid "2. Host opens door with a goat"
+msgstr "2. Host opens door with a goat"
+
+#: monty_hall/server.R:93
+msgid "Trial"
+msgstr "Trial"
+
+#: monty_hall/server.R:93
+msgid "Relative frequency of successful trials"
+msgstr "Relative frequency of successful trials"
+
+#: monty_hall/server.R:94
+#, c-format
+msgid "Trial %0.f: %s"
+msgstr "Trial %0.f: %s"
+
+#: monty_hall/server.R:95
+msgid "Got price :)"
+msgstr "Got price :)"
+
+#: monty_hall/server.R:95
+msgid "Got goat :("
+msgstr "Got goat :("
+
+#: confidence_mean_length/ui.R:7
+msgid "Confidence interval length for the mean"
+msgstr "Confidence interval length for the mean"
+
+#: confidence_mean_length/server.R:8
+msgid "Standard deviation"
+msgstr "Standard deviation"
+
+#: confidence_mean_length/server.R:11 confidence_mean_length/server.R:46
+msgid "Confidence interval length"
+msgstr "Confidence interval length"
+
+#: confidence_mean_length/server.R:15
+msgid "Max. sample size"
+msgstr "Max. sample size"
+
+#: confidence_mean_length/server.R:46
+msgid "Sample size"
+msgstr "Sample size"
+
+#: linreg/ui.R:6
+msgid "Simple linear regression"
+msgstr "Simple linear regression"
+
+#: linreg/ui.R:7
+msgid "Visualize"
+msgstr "Visualize"
+
+#: linreg/server.R:14
+msgid "Select dependent variable (Y)"
+msgstr "Select dependent variable (Y)"
+
+#: linreg/server.R:16
+msgid "Select independent variable (X)"
+msgstr "Select independent variable (X)"
+
+#: linreg/server.R:91
+msgid "C.I. for"
+msgstr "C.I. for"
+
+#: rank_correlation/ui.R:6
+msgid "Rank correlation"
+msgstr "Rank correlation"
+
+#: rank_correlation/server.R:48
+#, c-format
+msgid "Spearman rank correlation r<sub>s</sub>=%.3f"
+msgstr "Spearman's rank correlation r<sub>s</sub>=%.3f"
+
+#: rank_correlation/server.R:52
+#, c-format
+msgid "Kendalls rank correlation &tau;=%.3f"
+msgstr "Kendall's rank correlation &tau;=%.3f"
+
+# histogram_simple/ui.R
+#: histogram_simple/ui.R:6
+msgid "Simple Histogram"
+msgstr "Simple Histogram"
+
+#: histogram_simple/ui.R:7
+msgid "Histogram parameter"
+msgstr "Histogram parameter"
+
+#: histogram_simple/server.R:7
+msgid "Number of bins:"
+msgstr "Number of bins:"
+
+#~ msgid "BALANCE"
+#~ msgstr "Balance of current account"
+
+#~ msgid "LANDAREA"
+#~ msgstr "Land area"
+
+#~ msgid "POPULATION_1985"
+#~ msgstr "Population (1985)"
+
+#~ msgid "RAPE"
+#~ msgstr "Rape"
+
+#~ msgid "Speed of sampling"
+#~ msgstr "Speed of sampling"
+
+msgid "Frequency table/Crosstable"
+msgstr "Frequency table/Crosstable"
+
+msgid "Sum"
+msgstr "Sum"
+
+msgid "Tables"
+msgstr "Tables"
+
+msgid "Show frequencies"
+msgstr "Show frequencies"
+
+msgid "SHOW.COMMON.ABS"
+msgstr "Absolute common"
+
+msgid "SHOW.COMMON.REL"
+msgstr "Relative common"
+
+msgid "SHOW.COND.ROW"
+msgstr "Conditioned on row"
+
+msgid "SHOW.COND.COL"
+msgstr "Conditioned on col"
+
+msgid "SHOW.CHI2.RESIDUAL"
+msgstr "Chi-Square residuals"
+
+msgid "Squared sum"
+msgstr "Squared sum"
+
+msgid "Rows:"
+msgstr "Rows:"
+
+msgid "Columns:"
+msgstr "Columns:"
+
