@@ -226,7 +226,7 @@ shinyApp(
     ),
     dashboardBody(fillPage(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Time series analysis"),
         status = "primary",
         plotOutput("outputPlot"),

@@ -6,13 +6,14 @@
 \usage{
 checkPackages(
   ...,
-  add = c("shiny", "shinyWidgets", "shinydashboard", "shinydashboardPlus", "HKRbook")
+  add = c("highlight", "formatR", "shiny", "shinydashboard", "shinydashboardPlus",
+    "DT")
 )
 }
 \arguments{
 \item{...}{character: name(s) of package}
 
-\item{add}{character: names of default packages to check (default: \code{c("shiny", "shinyWidgets", "shinydashboard", "shinydashboardPlus", "HKRbook")})}
+\item{add}{character: names of default packages to check (default: \code{c("highlight", "formatR", "shiny", "shinydashboard", "shinydashboardPlus", "DT")})}
 }
 \value{
 \code{TRUE} if successful otherweise an error will be thrown

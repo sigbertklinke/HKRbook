@@ -97,9 +97,9 @@ shinyApp(
                      uiOutput("permuteUI"),
                      uiOutput("coeffUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Scatterplots and correlation"),
         status = "primary",
         plotOutput("scatterPlot")

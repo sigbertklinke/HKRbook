@@ -123,9 +123,9 @@ shinyApp(
                      uiOutput("go_resetUI"),
                      uiOutput("speedUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Confidence intervals for the proportion"),
         status = "primary",
         plotOutput("outputConfPlot"),

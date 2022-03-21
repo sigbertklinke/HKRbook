@@ -69,9 +69,9 @@ shinyApp(
     dashboardSidebar(minified=FALSE,
                      uiOutput("showUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Simple linear regression"),
         status = "primary",
         plotOutput("scatterPlot"),

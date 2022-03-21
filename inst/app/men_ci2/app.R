@@ -39,7 +39,7 @@ mmstat.ui.elem(inputId="go_reset",
 mmstat.ui.elem('speed',      'speedSlider')
 mmstat.ui.elem("dataset", "dataSet", choices = mmstat.getDataNames(files))
 mmstat.ui.elem("variable",   "variable1",   vartype = "numeric")
-browser()
+#browser()
 
 mmstat.ui.elem("group", "variable1", vartype = "binary", label = gettext("Select a group variable"))
 mmstat.ui.elem("cex",        "fontSize")
@@ -162,9 +162,9 @@ shinyApp(
       #          uiOutput("cexUI")
       #        )
     )),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Confidence intervals for the difference of two means"),
         status = "primary",
         plotOutput("outputConfPlot"),

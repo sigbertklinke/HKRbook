@@ -118,7 +118,7 @@ shinyApp(
                      uiOutput("speedUI")),
     dashboardBody(fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Confidence intervals for the mean"),
         status = "primary",
         plotOutput("outputConfPlot"),

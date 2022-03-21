@@ -123,9 +123,9 @@ shinyApp(
                      uiOutput("sizeUI"),
                      uiOutput("goUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Test of proportion"),
         status = "primary",
         plotOutput("outputPlot"),

@@ -85,7 +85,7 @@ men_asso()   | data set(s) | Association of categorical data                    
 men_bin()    | parameters  | Binomial distribution                                    | `men_bin` 
 men_ci1()    | data set(s) | Confidence interval for the mean                         | `men_ci1` 
 men_ci2()    | data set(s) | Confidence interval for the difference of two means      | `men_ci2` 
-men_cilen()  | --          | Necessary sample size for confidence interval            | `men_cilen` 
+men_cilen()  | --          | Necessary sample sizes for confidence interval           | `men_cilen` 
 men_cipi()   | data set(s) | Confidence interval for the proportion                   | `men_cipi` 
 men_cisig()  | data set(s) | Confidence interval for the variance                     | `men_cisig` 
 men_corr()   | data set(s) | Scatterplots and correlation                             | `men_corr`, `men_plot`
@@ -100,7 +100,7 @@ men_parn()   | parameter   | Distribution of sample parameters of a numerical va
 men_poi()    | parameter   | Poisson distribution                                     | `men_poi`
 men_rank()   | data set(s) | Rank correlation of ordered variables                    | `men_rank`
 men_regr()   | data set(s) | Simple linear regression                                 | `men_regr`
-men_tab()    | data set(s) | Frequencies table/Crosstable                             |
+men_tab()    | data set(s) | Simple linear regression                             |
 men_terr()   | data set(s) | Test of mean with type I and II error                    | `men_terr`
 men_time()   | time series | Classical time series analysis                           | `men_time1`, `men_time2`, `men_time3`
 men_tmu1()   | data set(s) | Test for mean                                            | `men_tmu1`

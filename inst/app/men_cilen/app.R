@@ -37,9 +37,9 @@ shinyApp(
                      uiOutput("sigmavarUI"),
                      uiOutput("lengthUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Confidence interval length for the mean"),
         status = "primary",
         plotOutput("outputConfPlot")

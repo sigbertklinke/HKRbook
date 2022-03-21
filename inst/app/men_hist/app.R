@@ -34,9 +34,9 @@ shinyApp(
                      uiOutput("binsUI"),
                      uiOutput("obsUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Simple Histogram"),
         status = "primary",
         plotOutput("distPlot")

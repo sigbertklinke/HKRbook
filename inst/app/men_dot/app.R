@@ -42,7 +42,7 @@ shinyApp(
     dashboardBody(
       fluidRow(
         column(width = 12,
-               box(title=gettext("Dotplot with parameters"), status="primary",
+               box(width=12,title=gettext("Dotplot with parameters"), status="primary",
                    plotOutput("distPlot"))
         )
       )

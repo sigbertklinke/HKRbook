@@ -46,9 +46,9 @@ shinyApp(
                      uiOutput("pdforcdfUI"),
                      uiOutput("refitUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Exponential distributions"),
         status = "primary",
         plotOutput("distPlot")

@@ -76,9 +76,9 @@ shinyApp(
                      uiOutput("hostUI", inline = TRUE),
                      uiOutput("speedUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Let's Make a Deal"),
         status = "primary",
         plotOutput("distPlot"),

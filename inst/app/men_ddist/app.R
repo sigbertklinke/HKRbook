@@ -133,18 +133,18 @@ shinyApp(
                      uiOutput("pdforcdfUI"),
                      uiOutput("refitUI")
     ),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
-#        title = gettext("Discrete distributions"),
-        status = "primary",
-        plotOutput("distPlot")
+      box(width=12,
+          #        title = gettext("Discrete distributions"),
+          status = "primary",
+          plotOutput("distPlot")
       ))))
   ),
   server = function(input, output, session) {
-#    output$BINOMUI        <- renderUI({ HTML(mmstat.html(gettext("INTRO_BINOM"))) })
-#    output$HYPERUI        <- renderUI({ HTML(mmstat.html(gettext("INTRO_HYPER"))) })
-#    output$POISUI         <- renderUI({ HTML(mmstat.html(gettext("INTRO_POIS"))) })
+    #    output$BINOMUI        <- renderUI({ HTML(mmstat.html(gettext("INTRO_BINOM"))) })
+    #    output$HYPERUI        <- renderUI({ HTML(mmstat.html(gettext("INTRO_HYPER"))) })
+    #    output$POISUI         <- renderUI({ HTML(mmstat.html(gettext("INTRO_POIS"))) })
     output$pdforcdfUI     <- renderUI({ mmstat.ui.call("pdforcdf") })
     output$refitUI        <- renderUI({ mmstat.ui.call("refit") })
     output$pois.lambdaUI  <- renderUI({ mmstat.ui.call("pois.lambda") })
@@ -155,6 +155,13 @@ shinyApp(
     output$hyper.NUI      <- renderUI({ mmstat.ui.call("hyper.N") })
     output$hyper.MUI      <- renderUI({ mmstat.ui.call("hyper.M") })
     output$cexUI          <- renderUI({ mmstat.ui.call("cex") })
+
+    observe({
+      if (!is.null(input$hyper.N) && !is.null(input$hyper.M)) {
+        val <- if (input$hyper.N<input$hyper.M) input$hyper.N else input$hyper.M
+        updateSliderInput(session, 'hyper.M', value=val, max=input$hyper.N)
+      }
+    })
 
     cdf <- function(x, height) {
       n <- length(x)
@@ -177,7 +184,7 @@ shinyApp(
     refit <- reactive({
       inp <- mmstat.getValues(NULL, refit = input$refit)
       mmstat.set(xlim=NULL, ylim=NULL)
-#      mmstat.set(dist='mmstat')
+      #      mmstat.set(dist='mmstat')
     })
 
     getDistribution <- reactive({
@@ -292,59 +299,61 @@ shinyApp(
         HYPER = {
           xlim <- mmstat.merge(xlim, c(0, inp$hyper.N + 1))
           x       <- 0:xlim[2]
-          if (inp$pdforcdf == 'DPDF') {
-            height  <-
-              stats::dhyper(x,
-                            inp$hyper.M,
-                            inp$hyper.N - inp$hyper.M,
-                            inp$hyper.n)
-            ylim <- mmstat.merge(ylim, c(0, height))
-            mp <- graphics::barplot(
-              height,
-              xlim = 1.3 * xlim,
-              ylim = 1.1 * ylim,
-              ylab = "f(x)",
-              xlab = "x",
-              main = sprintf(
-                gettext(
-                  "Probability mass function of H(N=%.0f, M=%.0f, n=%.0f)"
+          if (inp$hyper.N - inp$hyper.M>=0) {
+            if (inp$pdforcdf == 'DPDF') {
+              height  <-
+                stats::dhyper(x,
+                              inp$hyper.M,
+                              inp$hyper.N - inp$hyper.M,
+                              inp$hyper.n)
+              ylim <- mmstat.merge(ylim, c(0, height))
+              mp <- graphics::barplot(
+                height,
+                xlim = 1.3 * xlim,
+                ylim = 1.1 * ylim,
+                ylab = "f(x)",
+                xlab = "x",
+                main = sprintf(
+                  gettext(
+                    "Probability mass function of H(N=%.0f, M=%.0f, n=%.0f)"
+                  ),
+                  inp$hyper.N,
+                  inp$hyper.M,
+                  inp$hyper.n
                 ),
-                inp$hyper.N,
-                inp$hyper.M,
-                inp$hyper.n
-              ),
-              cex.axis = inp$cex,
-              cex.lab = inp$cex,
-              cex.main = 1.2 * inp$cex,
-              cex.sub = inp$cex
-            )
-            mmstat.baraxis(1,
-                           xlim,
-                           mp,
-                           sprintf("%.f", 0:xlim[2]),
-                           cex.axis = inp$cex)
-          } else {
-            ylim <- mmstat.merge(ylim, c(0, 1))
-            height <- stats::phyper(x, inp$hyper.M, inp$hyper.N - inp$hyper.M, inp$hyper.n)
-            plot(
-              cdf(x, height),
-              xlim = xlim,
-              ylim = ylim,
-              ylab = "F(x)",
-              xlab = "x",
-              main = sprintf(
-                gettext(
-                  "Cumulative distribution function of H(N=%.0f, M=%.0f, n=%.0f)"
+                cex.axis = inp$cex,
+                cex.lab = inp$cex,
+                cex.main = 1.2 * inp$cex,
+                cex.sub = inp$cex
+              )
+              mmstat.baraxis(1,
+                             xlim,
+                             mp,
+                             sprintf("%.f", 0:xlim[2]),
+                             cex.axis = inp$cex)
+            } else {
+              ylim <- mmstat.merge(ylim, c(0, 1))
+              height <- stats::phyper(x, inp$hyper.M, inp$hyper.N - inp$hyper.M, inp$hyper.n)
+              plot(
+                cdf(x, height),
+                xlim = xlim,
+                ylim = ylim,
+                ylab = "F(x)",
+                xlab = "x",
+                main = sprintf(
+                  gettext(
+                    "Cumulative distribution function of H(N=%.0f, M=%.0f, n=%.0f)"
+                  ),
+                  inp$hyper.N,
+                  inp$hyper.M,
+                  inp$hyper.n
                 ),
-                inp$hyper.N,
-                inp$hyper.M,
-                inp$hyper.n
-              ),
-              cex.axis = inp$cex,
-              cex.lab = inp$cex,
-              cex.main = 1.2 * inp$cex,
-              cex.sub = inp$cex
-            )
+                cex.axis = inp$cex,
+                cex.lab = inp$cex,
+                cex.main = 1.2 * inp$cex,
+                cex.sub = inp$cex
+              )
+            }
           }
         },
         POIS = {

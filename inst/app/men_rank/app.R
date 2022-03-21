@@ -69,9 +69,9 @@ shinyApp(
                     )
     ),
     dashboardSidebar(minified = FALSE, uiOutput("coeffUI")),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Rank correlation"),
         status = "primary",
         htmlOutput("contingencyTable")

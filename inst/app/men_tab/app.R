@@ -83,9 +83,9 @@ shinyApp(
       uiOutput("coeffUI")
       #        )
     )),
-    dashboardBody(fluidRow(column(
+    dashboardBody( fluidRow(column(
       width = 12,
-      box(
+      box(width=12,
         title = gettext("Frequency table/Crosstable"),
         status = "primary",
         htmlOutput("contingencyTable")
