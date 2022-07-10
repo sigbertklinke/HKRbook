@@ -68,7 +68,7 @@ mmstat.ui.elem <- function (inputId, type, ...) {
       for (i in seq(length(nparam))) {
         if (is.null(elem[[nparam[i]]])) {
           elem[[nparam[i]]] <- mmstat$fun[[pos]][[nparam[i]]]
-          if (class(elem[[nparam[i]]])=="expression") elem[[nparam[i]]] <- eval(elem[[nparam[i]]], envir=list2env(elem))
+          if (inherits(elem[[nparam[i]]], "expression")) elem[[nparam[i]]] <- eval(elem[[nparam[i]]], envir=list2env(elem))
         }
       }
     }

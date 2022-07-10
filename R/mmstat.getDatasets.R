@@ -22,7 +22,7 @@ mmstat.getDatasets <- function (...) {
   for (i in seq(files)) {
     file    <- files[[i]]
     data    <- readRDS(paste0(file, ".rds"))
-    if (class(data)=="data.frame") {
+    if (inherits(data, "data.frame")) {
       allvars <- names(data)
       mmstat$dataset[[file]] <<-list(data=data, allvars=allvars,
                                      numvars=allvars[sapply(data, is.numeric)],
@@ -30,7 +30,7 @@ mmstat.getDatasets <- function (...) {
                                      facvars=allvars[sapply(data, is.factor)],
                                      binvars=allvars[sapply(data, is.binary)])
     }
-    if (class(data)=="ts") {
+    if (inherits(data, "ts")) {
       allvars <- colnames(data)
       mmstat$dataset[[file]] <<-list(data=data, allvars=allvars, numvars=allvars)
     }

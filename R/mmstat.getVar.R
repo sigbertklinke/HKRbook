@@ -41,8 +41,8 @@ mmstat.getVar <- function (dataname=NULL, varname=NULL, vartype=NULL, na.action=
   varname <- mmstat$dataset[[dataname]][[type]][pos]
   # get var values
   dataset <- mmstat$dataset[[dataname]]$data
-  if (class(dataset)=="data.frame") values  <- na.action(dataset[[varname]])
-  if (class(dataset)=="ts") values  <- na.action(dataset[,varname])
+  if (inherits(dataset, "data.frame")) values  <- na.action(dataset[[varname]])
+  if (inherits(dataset, "ts")) values  <- na.action(dataset[,varname])
   var     <- list(values   = values,
                   n        = length(values),
                   name     = varname,

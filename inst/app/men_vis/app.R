@@ -45,23 +45,19 @@ shinyApp(
     ),
     dashboardBody(fluidPage(
       fluidRow(
-        box(width=12,
-          title = gettext("Variable visualizations"),
+        box(title = gettext("Variable visualizations"),
           status = "primary",
           width = 6,
           plotOutput("plotStrip", height = "300px")
         ),
-        box(width=12,
-          width = 6,
+        box(width = 6,
           title = '',
           plotOutput("plotHist", height = "300px")
         )
       ),
-      fluidRow(box(width=12,
-        width = 6, plotOutput("plotBox", height = "300px")
+      fluidRow(box(width = 6, plotOutput("plotBox", height = "300px")
       ),
-      box(width=12,
-        width = 6, plotOutput("plotEcdf", height = "300px")
+      box(width = 6, plotOutput("plotEcdf", height = "300px")
       ))
       #        ,
       #        fluidRow(box(width=12,width=12, htmlOutput("distText")))
