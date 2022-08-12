@@ -46,6 +46,7 @@ The enhanced online version helps students grasp the complexity and the practica
 
 This book covers all the topics found in introductory descriptive statistics courses, including simple linear regression and time series analysis, the fundamentals of inferential statistics (probability theory, random sampling and estimation theory), and inferential statistics itself (confidence intervals, testing).
 Each chapter starts with the necessary theoretical background, which is followed by a variety of examples. The core examples are based on the content of the respective chapter, while the advanced examples, designed to deepen students' knowledge, also draw on information and material from previous chapters.
+
 The enhanced online version helps students grasp the complexity and the practical relevance of statistical analysis through interactive examples and is suitable for undergraduate and graduate students taking their first statistics courses, as well as for undergraduate students in non-mathematical fields, e.g. economics, the social sciences etc. 
 
 ## Portrait of the authors 
@@ -61,8 +62,7 @@ or Mathematics and its Applications, School of Mathematical Sciences, The Austra
 
 ## Use of the examples
 
-The interactive examples in the book could be reached via web link of the form `https://u.hu-berlin.de/men_xxxx`. In the package
-`HKRbook` these links has been replaced by functions `men_xxxx()`.
+The interactive examples in the book can be accessed via a web link of the form `https://u.hu-berlin.de/men_xxxx`. In the package `HKRbook` these links have been replaced by the functions `men_xxxx()`.
 
 ```{r, eval=FALSE}
 # install the package once from CRAN
@@ -73,11 +73,11 @@ men_asso()  # calls the Shiny app behind "https://u.hu-berlin.de/men_asso"
 men_asso(Titanic)
 ```
 
-If you run the app then quit it by closing the app window.
+If you are running the application, exit it by closing the application window.
 
 ## Old and new apps 
 
-However, we streamlined some apps since they are more or less duplicates from each other.
+However, we have streamlined some apps as they are more or less duplicates.
 
 R function   | Parameters  | Content                               | Book link (`https://u.hu-berlin.de/`)
 -------------+-------------+---------------------------------------+--------------------------------------
