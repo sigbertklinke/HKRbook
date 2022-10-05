@@ -19,7 +19,7 @@ men_asso <- function(...) {
   oldpar <- graphics::par(no.readonly = TRUE)
   on.exit(resetpar(oldpar))
   pkgs <- checkPackages()
-  if (!all(pkgs)) stop(sprintf("Package '%s' not installed", names(pkgs)[!pkgs]))
+  if (!all(pkgs)) stop(sprintf("Please call first:\n install.packages(c(%s))", paste0("'", names(pkgs)[!pkgs], "'", collapse=", ")))
   shinyOptions(mmstat=toRDS(...))
   source(system.file("app", "men_asso", "app.R", package = "HKRbook"), local = TRUE, chdir = TRUE)$value
 }

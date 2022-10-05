@@ -26,7 +26,7 @@ mmstat.sliderInput <- function (...) {
   args <- list(...)
   if ((utils::compareVersion(mmstat$shiny, "0.11")>=0) && !is.null(args$ticks) && length(args$ticks)) {
     ticks      <- paste0(args$ticks, collapse=',')
-    args$ticks <- T
+    args$ticks <- TRUE
     suppressWarnings(html       <- do.call('sliderInput', args))
     html       <- iapply(html)
   } else {

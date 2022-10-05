@@ -89,3 +89,26 @@ mmstat <- new.env()
   mmstat.lang()
   Sys.setlocale("LC_ALL", gettext("LC_ALL"))
 }
+
+#' zzz
+#'
+#' Checks if all necessary packages are installed.
+#'
+#' @return a logical vector which of the required packages are available
+#' @importFrom highlight header_html
+#' @importFrom formatR tidy_source
+#' @importFrom DT tableHeader
+#' @importFrom utils capture.output
+#' @export
+#'
+#' @examples
+#' zzz()
+zzz <- function() {
+  h <- header_html(document= FALSE)              # highlight
+  t <- capture.output(tidy_source(text = "1+1")) # formatR
+  t <- tableHeader(1:2)                          # DT
+  pkgs <- c("highlight", "formatR", "shiny", "shinydashboard", "shinydashboardPlus", "DT")
+  ret <- structure(rep(FALSE, length(pkgs)), names=pkgs)
+  for (pkg in pkgs) ret[pkg] <- nzchar(system.file(package=pkg))
+  ret
+}

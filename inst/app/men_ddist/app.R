@@ -7,8 +7,8 @@ suppressPackageStartupMessages({
   library("HKRbook")
 })
 #
-oldpar <- graphics::par(no.readonly = TRUE)
-on.exit(resetpar(oldpar))
+#oldpar <- graphics::par(no.readonly = TRUE)
+#on.exit(resetpar(oldpar))
 # Set parameter
 param  <- getShinyOption("mmstat")
 distrd <- if (is.null(param$distrd)) 'BINOM' else param$distrd
@@ -412,6 +412,10 @@ shinyApp(
     output$logText <- renderText({
       #mmstat.getLog(session)
     })
+  },
+  onStart = function() {
+    oldpar <- par(no.readonly = TRUE)
+    onStop(function() { resetpar(oldpar) })
   }
 )
 

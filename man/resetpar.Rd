@@ -16,5 +16,10 @@ nothing
 Resets the par if necessary.
 }
 \examples{
-# no examples
+par("mar")
+oldpar <- par(no.readonly = TRUE)
+par(mar = c(0,0,0,0))
+par("mar")
+resetpar(oldpar)
+par("mar")
 }

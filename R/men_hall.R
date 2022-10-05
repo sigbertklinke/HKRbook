@@ -20,7 +20,7 @@ men_hall <- function(pointdoor=1, afteropen=1) {
   oldpar <- graphics::par(no.readonly = TRUE)
   on.exit(resetpar(oldpar))
   pkgs <- checkPackages()
-  if (!all(pkgs)) stop(sprintf("Package '%s' not installed", names(pkgs)[!pkgs]))
+  if (!all(pkgs)) stop(sprintf("Please call first:\n install.packages(c(%s))", paste0("'", names(pkgs)[!pkgs], "'", collapse=", ")))
   shinyOptions(mmstat=c(pointdoor=pointdoor, afteropen=afteropen))
   source(system.file("app", "men_hall", "app.R", package = "HKRbook"), local = TRUE, chdir = TRUE)$value
 }

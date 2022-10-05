@@ -7,8 +7,8 @@ suppressPackageStartupMessages({
   library("HKRbook")
 })
 #
-oldpar <- graphics::par(no.readonly = TRUE)
-on.exit(resetpar(oldpar))
+#oldpar <- graphics::par(no.readonly = TRUE)
+#on.exit(resetpar(oldpar))
 #
 files <- getShinyOption("mmstat")
 if (is.null(files)) files <- mmstat.rds("TELEPHONE", "INDEX-BASIC-RENT-BERLIN")
@@ -154,7 +154,7 @@ plot.tsd <- function (fit, cex) {
   }
   bcex <- 1
   if (fit$seasonality != 'NO.SEASON') {
-    oldpar <- graphics::par()
+    #oldpar <- graphics::par()
     graphics::layout(matrix(1:3, ncol = 1), heights = c(2, 1, 1))
     graphics::par(mai = c(0.7, oldpar$mai[2], 0, oldpar$mai[4]))
     bcex <- 1.5
@@ -303,5 +303,9 @@ shinyApp(
     })
 
     output$logText <- renderText({ mmstat.getLog(session) })
+  },
+  onStart = function() {
+    oldpar <- par(no.readonly = TRUE)
+    onStop(function() { resetpar(oldpar) })
   }
 )

@@ -6,8 +6,7 @@
 \usage{
 checkPackages(
   ...,
-  add = c("highlight", "formatR", "shiny", "shinydashboard", "shinydashboardPlus",
-    "DT")
+  add = c("highlight", "formatR", "shiny", "shinydashboard", "shinydashboardPlus", "DT")
 )
 }
 \arguments{

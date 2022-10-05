@@ -9,7 +9,7 @@ mmstat.plotTestRegions(
   xlim,
   ylim,
   cex,
-  close = F,
+  close = FALSE,
   col = "black",
   label = NULL,
   pos = 1

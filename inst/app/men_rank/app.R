@@ -8,8 +8,8 @@ suppressPackageStartupMessages({
   library("scatterplot3d")
 })
 #
-oldpar <- graphics::par(no.readonly = TRUE)
-on.exit(resetpar(oldpar))
+#oldpar <- graphics::par(no.readonly = TRUE)
+#on.exit(resetpar(oldpar))
 #
 files <- getShinyOption("mmstat")
 if (is.null(files)) files <-  mmstat.rds("ALLBUS1994-TRUST", "ALLBUS2002-TRUST", "ALLBUS2012-TRUST", "ALLBUS1992-ECON",
@@ -155,5 +155,9 @@ shinyApp(
     })
 
     output$logText <- renderText({ mmstat.getLog(session) })
+  },
+  onStart = function() {
+    oldpar <- par(no.readonly = TRUE)
+    onStop(function() { resetpar(oldpar) })
   }
 )

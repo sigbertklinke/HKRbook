@@ -10,10 +10,11 @@
 #' @export
 #'
 #' @examples
-#' par(mfrow=c(1,2))
+#' oldpar <- par(mfrow=c(1,2))
 #' plot(iris[,1])
 #' plot(iris[,1], axes=FALSE)
 #' mmstat.axis(2, iris[,1])
+#' par(oldpar)
 mmstat.axis <- function(side, range, at, labels, ...) {
   at  <- pretty(range)
   dec <- mmstat.dec(at)

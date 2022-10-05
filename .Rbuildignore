@@ -2,3 +2,6 @@
 ^\.Rproj\.user$
 inst/archive/
 inst/r0/
+inst/rstudio/
+R/addin.R
+/archive/

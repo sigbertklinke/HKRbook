@@ -7,8 +7,8 @@ suppressPackageStartupMessages({
   library("HKRbook")
 })
 #
-oldpar <- graphics::par(no.readonly = TRUE)
-on.exit(resetpar(oldpar))
+#oldpar <- graphics::par(no.readonly = TRUE)
+#on.exit(resetpar(oldpar))
 #
 files <- getShinyOption("mmstat")
 if (is.null(files)) files <- mmstat.rds("HAIR.EYE.COLOR", "TITANIC")
@@ -233,5 +233,9 @@ shinyApp(
     output$logText <- renderText({
       mmstat.getLog(session)
     })
+  },
+  onStart = function() {
+    oldpar <- par(no.readonly = TRUE)
+    onStop(function() { resetpar(oldpar) })
   }
 )

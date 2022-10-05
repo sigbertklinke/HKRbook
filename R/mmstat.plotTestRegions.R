@@ -19,7 +19,7 @@
 #' px <- dnorm(x)
 #' plot(x, px, type="l", ylim=c(-0.25, max(px)), xlim=range(x))
 #' mmstat.plotTestRegions(crit=c(-1.96, +1.96), xlim=range(x), ylim=c(-0.2, -0.1), cex=1)
-mmstat.plotTestRegions <- function (crit, xlim, ylim, cex, close=F, col="black", label=NULL, pos=1) {
+mmstat.plotTestRegions <- function (crit, xlim, ylim, cex, close=FALSE, col="black", label=NULL, pos=1) {
   graphics::lines(xlim, c(ylim[1], ylim[1]), col=col)
   graphics::lines(xlim, c(ylim[2], ylim[2]), col=col)
   if (close) {

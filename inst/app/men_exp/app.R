@@ -7,8 +7,8 @@ suppressPackageStartupMessages({
   library("HKRbook")
 })
 #
-oldpar <- graphics::par(no.readonly = TRUE)
-on.exit(resetpar(oldpar))
+#oldpar <- graphics::par(no.readonly = TRUE)
+#on.exit(resetpar(oldpar))
 # Set parameter
 param <- getShinyOption("mmstat")
 rate  <- mmstat.getValue(param['rate'], 1)
@@ -191,6 +191,10 @@ shinyApp(
     })
 
     output$logText <- renderText({ mmstat.getLog(session) })
+  },
+  onStart = function() {
+    oldpar <- par(no.readonly = TRUE)
+    onStop(function() { resetpar(oldpar) })
   }
 )
 

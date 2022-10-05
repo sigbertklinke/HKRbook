@@ -35,10 +35,11 @@ adds a axis to a plot
 Based on \code{range} the position of the labels are determined and the axis is plotted.
 }
 \examples{
-par(mfrow=c(1,2))
+oldpar <- par(mfrow=c(1,2))
 x <- 0:15
 px <- dbinom(x, 10, 0.5)
 plot(x, px, type="h")
 plot(x, px, type="h", axes=FALSE)
 mmstat.baraxis(1, range(x), at=x, labels=as.character(x))
+par(oldpar)
 }

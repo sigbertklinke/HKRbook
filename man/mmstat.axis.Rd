@@ -35,8 +35,9 @@ adds a axis to a plot
 Based on \code{range} the position of the labels are determined and the axis is plotted.
 }
 \examples{
-par(mfrow=c(1,2))
+oldpar <- par(mfrow=c(1,2))
 plot(iris[,1])
 plot(iris[,1], axes=FALSE)
 mmstat.axis(2, iris[,1])
+par(oldpar)
 }

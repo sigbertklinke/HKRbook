@@ -39,7 +39,7 @@
 #' @examples
 #' mmstat.ui.elem(inputId="alpha", type="significance")
 mmstat.ui.elem <- function (inputId, type, ...) {
-  found        <- F
+  found        <- FALSE
   elem         <- list(...)
   elem$inputId <- inputId
   elem$type    <- as.character(substitute(type))
@@ -77,7 +77,7 @@ mmstat.ui.elem <- function (inputId, type, ...) {
     #      elem$update <- 'updateSliderInput'
     #      elem$step   <- 1
     #      elem$min    <- 1
-    #      elem$ticks  <- T
+    #      elem$ticks  <- TRUE
     #      #elem$value  <- 1
     #      if (is.null(elem$value)) elem$value <- as.numeric(utils::compareVersion(mmstat$shiny, "0.11")<0)
     #    }
@@ -128,7 +128,7 @@ mmstat.ui.elem <- function (inputId, type, ...) {
     #    }
     #    if (elem$type=='variableN') { # selectInput to select one variable
     #      elem$call     <- 'selectInput'
-    #      elem$multiple <- T
+    #      elem$multiple <- TRUE
     #      if (is.null(elem$label))   elem$label   <- gettext("Select variable(s)")
     #      if (is.null(elem$choices)) elem$choices <- mmstat.getVarNames(1, elem$vartype)
     #    }
