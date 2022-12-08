@@ -109,6 +109,9 @@ shinyApp(
                         title = gettext("Options"),
                         badgeStatus = NULL,
                         uiOutput("cexUI")
+                      ),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
                       ))),
     dashboardSidebar(minified=FALSE,
                      uiOutput("conflevelUI"),
@@ -131,6 +134,8 @@ shinyApp(
     output$speedUI     <- renderUI({ mmstat.ui.call('speed') })
     output$datasetUI   <- renderUI({ mmstat.ui.call('dataset') })
     output$cexUI       <- renderUI({ mmstat.ui.call('cex') })
+
+    observeEvent(input$quit, { stopApp() })
 
     output$sizeUI <- renderUI({
       var <- getVar()

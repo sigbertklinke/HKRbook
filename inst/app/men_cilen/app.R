@@ -30,7 +30,10 @@ shinyApp(
                         id    = "options",
                         title = gettext("Options"),
                         badgeStatus = NULL,
-                        uiOutput("cexUI")))),
+                        uiOutput("cexUI")),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
+                      ))),
     dashboardSidebar(minified=FALSE,
                      uiOutput("conflevelUI"),
                      uiOutput("sizeUI"),
@@ -52,6 +55,8 @@ shinyApp(
     output$sizeUI      <- renderUI({ mmstat.ui.call("size",
                                                     ticks = c(20, 50, 100, 200, 500, 1000, 2000),
                                                     max = 7) })
+
+    observeEvent(input$quit, { stopApp() })
 
     getSize   <- reactive({
       inp   <- mmstat.getValues(NULL, size = input$size)

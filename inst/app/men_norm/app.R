@@ -42,7 +42,10 @@ shinyApp(
                         id    = "options",
                         title = gettext("Options"),
                         badgeStatus = NULL,
-                        uiOutput("cexUI")))),
+                        uiOutput("cexUI")),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
+                      ))),
     dashboardSidebar(minified=FALSE,
                      uiOutput("norm.muUI"),
                      uiOutput("norm.sigma2UI"),
@@ -67,6 +70,7 @@ shinyApp(
     output$pdforcdfUI     <- renderUI({ mmstat.ui.call("pdforcdf") })
     output$refitUI        <- renderUI({ mmstat.ui.call("refit") })
     output$cexUI         <- renderUI({ mmstat.ui.call("cex") })
+    observeEvent(input$quit, { stopApp() })
 
     refit <- reactive({
       input$refit

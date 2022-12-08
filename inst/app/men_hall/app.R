@@ -66,7 +66,11 @@ shinyApp(
                         id    = "options",
                         title = gettext("Options"),
                         badgeStatus = NULL,
-                        uiOutput("cexUI")))),
+                        uiOutput("cexUI")),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
+                      )
+                    )),
     dashboardSidebar(minified=FALSE,
 
                      uiOutput("pointdoorUI"),
@@ -93,6 +97,7 @@ shinyApp(
     output$afteropenUI <- renderUI({ mmstat.ui.call("afteropen") })
     output$speedUI     <- renderUI({ mmstat.ui.call("speed") })
     output$hostopensUI <- renderUI({ HTML(paste(HTML('&nbsp;&nbsp;&nbsp;'), tags$b(gettext("2. Host opens door with a goat")))) })
+    observeEvent(input$quit, { stopApp() })
 
     deal <- reactiveValues(success = logical(0), price = NA, guest = NA, host = NA, final = NA, trial = 0)
     # price: the door number where the price is

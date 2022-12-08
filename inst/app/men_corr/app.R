@@ -91,6 +91,9 @@ shinyApp(
                         title = gettext("Options"),
                         badgeStatus = NULL,
                         uiOutput("cexUI")
+                      ),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
                       ))),
     dashboardSidebar(minified=FALSE,
                      uiOutput("graphUI"),
@@ -110,6 +113,8 @@ shinyApp(
     output$permuteUI <- renderUI({ mmstat.ui.call("permute") })
     output$datasetUI <- renderUI({ mmstat.ui.call("dataset") })
     output$cexUI     <- renderUI({ mmstat.ui.call("cex") })
+
+    observeEvent(input$quit, { stopApp() })
 
     output$variableSelectUI <- renderUI({
       inp  <- mmstat.getValues(NULL, dataset = input$dataset)

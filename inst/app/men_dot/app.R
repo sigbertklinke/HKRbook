@@ -31,7 +31,10 @@ shinyApp(
                       dropdownBlock(id = "data",    title = gettext("Data choice"), badgeStatus = NULL,
                                     uiOutput("variableUI"), uiOutput("datasetUI")),
                       dropdownBlock(id = "options", title = gettext("Options"),     badgeStatus = NULL,
-                                    uiOutput("cexUI"))
+                                    uiOutput("cexUI")),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
+                      )
                     )),
     dashboardSidebar(minified=FALSE,
                      uiOutput("methodUI"),
@@ -58,6 +61,7 @@ shinyApp(
     output$addmeanUI   <- renderUI({ mmstat.ui.call("addmean") })
     output$datasetUI   <- renderUI({ mmstat.ui.call("dataset") })
     output$cexUI       <- renderUI({ mmstat.ui.call("cex") })
+    observeEvent(input$quit, { stopApp() })
 
     output$variableUI <- renderUI({
       inp  <- mmstat.getValues(NULL, dataset = input$dataset)

@@ -97,6 +97,9 @@ shinyApp(
                         title = gettext("Options"),
                         badgeStatus = NULL,
                         uiOutput("cexUI")
+                      ),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
                       ))),
     dashboardSidebar(minified=FALSE,
                      uiOutput("conflevelUI"),
@@ -113,6 +116,8 @@ shinyApp(
         plotOutput("outputSamplePlot", height = "200px")
       ))))),
   server = function(input, output, session) {
+    observeEvent(input$quit, { stopApp() })
+
     output$conflevelUI <- renderUI({
       mmstat.ui.call('conflevel')
     })

@@ -72,6 +72,9 @@ shinyApp(
                         title = gettext("Options"),
                         badgeStatus = NULL,
                         uiOutput("cexUI")
+                      ),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
                       )
                     )
     ),
@@ -132,6 +135,7 @@ shinyApp(
     output$cexUI             <- renderUI({ mmstat.ui.call("cex") })
     output$variableXSelectUI <- renderUI({ mmstat.ui.call("variableXSelect") })
     output$variableYSelectUI <- renderUI({ mmstat.ui.call("variableYSelect") })
+    observeEvent(input$quit, { stopApp() })
 
     observe({
       inp  <- mmstat.getValues(NULL, dataset = input$dataset)

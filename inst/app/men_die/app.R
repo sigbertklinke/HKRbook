@@ -58,7 +58,10 @@ shinyApp(
                         id    = "options",
                         title = gettext("Options"),
                         badgeStatus = NULL,
-                        uiOutput("cexUI")))),
+                        uiOutput("cexUI")),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
+                      ))),
     dashboardSidebar(minified=FALSE,
                      uiOutput("rollsUI"),
                      uiOutput("sixesUI"),
@@ -77,6 +80,8 @@ shinyApp(
     output$probUI  <- renderUI({ mmstat.ui.call("prob") })
     output$cexUI   <- renderUI({ mmstat.ui.call("cex") })
     output$sixesUI <- renderUI({ mmstat.ui.call("sixes") })
+
+    observeEvent(input$quit, { stopApp() })
 
     output$distPlot <- renderPlot({
       inp <- mmstat.getValues(NULL, cex = input$cex, prob = input$prob, rolls = input$rolls)

@@ -118,6 +118,9 @@ shinyApp(
                         title = gettext("Options"),
                         badgeStatus = NULL,
                         uiOutput("cexUI")
+                      ),
+                      tags$li(class = "dropdown", style = "padding-top: 8px;",
+                              actionButton("quit", gettext("Quit"))
                       ))),
     dashboardSidebar(minified=FALSE,
                      uiOutput("distributionUI"),
@@ -155,6 +158,8 @@ shinyApp(
     output$hyper.NUI      <- renderUI({ mmstat.ui.call("hyper.N") })
     output$hyper.MUI      <- renderUI({ mmstat.ui.call("hyper.M") })
     output$cexUI          <- renderUI({ mmstat.ui.call("cex") })
+
+    observeEvent(input$quit, { stopApp() })
 
     observe({
       if (!is.null(input$hyper.N) && !is.null(input$hyper.M)) {
